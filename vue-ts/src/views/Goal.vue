@@ -1,11 +1,16 @@
 <template>
-  <div class="goal">
-    <h1>This is a goal page</h1>
-  </div>
+  <Navbar/>
+  <div>Goal Page</div>
 </template>
 
 <script>
+import Navbar from '../components/navbar/Navbar';
 
+export default {
+  components: {
+    Navbar,
+  }
+}
 </script>
 
 <style>
