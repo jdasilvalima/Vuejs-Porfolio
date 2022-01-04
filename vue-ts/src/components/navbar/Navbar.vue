@@ -1,8 +1,8 @@
 <template>
   <nav>
     <!-- Start top navbar -->
-    <div class="h-20 flex justify-around items-center bg-gray-300">
-      <div class="text-teal-600 text-2xl font-bold">{{ $t("nav.title") }}</div>
+    <div class="h-20 flex justify-around items-center bg-gray-300 dark:bg-gray-800">
+      <div class="text-teal-600 dark:text-teal-400 text-2xl font-bold mr-3">{{ $t("nav.title") }}</div>
       <div>
         <img
           class="h-16 w-16 rounded-full"
@@ -33,7 +33,7 @@
       </div>
 
       <div class="flex space-x-3 mr-3">
-        <img src="../../assets/moon.svg" alt="dark or light mode" class="h-5 w-5 cursor-pointer"/>
+        <img :src="darkLightIcon" alt="choose dark or light mode" class="h-5 w-5 cursor-pointer" @click="darkOrLightMode"/>
         <span class="text-gray-600 font-bold capitalize cursor-pointer" v-if="$i18n.locale === 'en' ? language = 'fr' : language = 'en'" @click="setLocale(language)">{{ language }}</span>
       </div>
     </div>
@@ -51,11 +51,26 @@ export default {
         { names: this.$t("nav.about"), router: "/about" },
       ],
       language: 'fr',
+      darkLightIcon: null,
     };
+  },
+  created() {
+    localStorage.getItem('theme') === 'light' ? this.darkLightIcon = require(`../../assets/moon.svg`) : this.darkLightIcon = require(`../../assets/sun.svg`);
   },
   methods: {
     setLocale(locale) {
       this.$i18n.locale = locale;
+    },
+    darkOrLightMode() {
+      if(localStorage.getItem('theme') === 'light') {
+        localStorage.setItem('theme', 'dark');
+        document.documentElement.classList.add('dark');
+        this.darkLightIcon = require(`../../assets/sun.svg`);
+      } else {
+        localStorage.setItem('theme', 'light');
+        document.documentElement.classList.remove('dark');
+        this.darkLightIcon = require(`../../assets/moon.svg`);
+      }
     }
   }
 };
