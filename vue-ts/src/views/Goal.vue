@@ -1,5 +1,5 @@
 <template>
-  <Navbar/>
+  <Navbar :key="$i18n.locale"/>
   <div>Goal Page</div>
 </template>
 
@@ -9,6 +9,12 @@ import Navbar from '../components/navbar/Navbar';
 export default {
   components: {
     Navbar,
+  },
+  data: function () {
+    return {
+    };
+  },
+  methods: {
   }
 }
 </script>

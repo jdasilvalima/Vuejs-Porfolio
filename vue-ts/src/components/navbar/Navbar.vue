@@ -1,8 +1,8 @@
 <template>
   <nav>
     <!-- Start top navbar -->
-    <div class="h-20 flex justify-around items-center">
-      <div class="text-teal-600 text-2xl font-bold">Bonjour, I'm Jade</div>
+    <div class="h-20 flex justify-around items-center bg-gray-300">
+      <div class="text-teal-600 text-2xl font-bold">{{ $t("nav.title") }}</div>
       <div>
         <img
           class="h-16 w-16 rounded-full"
@@ -13,7 +13,7 @@
     </div>
     <!-- End top navbar -->
     <!-- Start bottom navbar -->
-    <div class="h-10 flex justify-around items-center">
+    <div class="h-7 flex justify-around items-center bg-gray-400">
       <div class="flex space-x-5">
         <div
           v-for="navbar in navbars"
@@ -27,14 +27,14 @@
             href="https://www.linkedin.com/in/jade-da-silva-lima/"
             target="_blank"
           >
-            <img src="../../assets/linkedin-icon.svg" alt="LinkedIn logo" />
+            <img src="../../assets/linkedin-icon.svg" alt="LinkedIn logo"/>
           </a>
         </div>
       </div>
 
-      <div class="flex space-x-3 mr-4">
-        <img src="../../assets/moon.svg" alt="dark or light mode" class="h-5 w-5"/>
-        <span class="text-gray-600 font-bold">Fr</span>
+      <div class="flex space-x-3 mr-3">
+        <img src="../../assets/moon.svg" alt="dark or light mode" class="h-5 w-5 cursor-pointer"/>
+        <span class="text-gray-600 font-bold capitalize cursor-pointer" v-if="$i18n.locale === 'en' ? language = 'fr' : language = 'en'" @click="setLocale(language)">{{ language }}</span>
       </div>
     </div>
     <!-- End bottom navbar -->
@@ -46,12 +46,18 @@ export default {
   data: function () {
     return {
       navbars: [
-        { names: "Goal", router: "/goal" },
-        { names: "Projects", router: "/projects" },
-        { names: "About", router: "/about" },
+        { names: this.$t("nav.goal"), router: "/goal" },
+        { names: this.$t("nav.projects"), router: "/projects" },
+        { names: this.$t("nav.about"), router: "/about" },
       ],
+      language: 'fr',
     };
   },
+  methods: {
+    setLocale(locale) {
+      this.$i18n.locale = locale;
+    }
+  }
 };
 </script>
 
