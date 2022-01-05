@@ -1,3 +1,10 @@
 {
-    "message": "bonjour i18n !!"
+  "nav": {
+    "titleGoal": "Hi, je m'appelle Jade",
+    "titleProjects": "Mes projets",
+    "titleAbout": "Un peu plus sur moi",
+    "goal": "Objectifs",
+    "projects": "Projets",
+    "about": "A propos"
+  }
 }

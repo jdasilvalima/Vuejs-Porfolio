@@ -1,8 +1,6 @@
 <template>
-  <div class="about">
-    <Navbar :title="$t('nav.titleAbout')" :key="$i18n.locale"/>
-    <h1>This is an about page</h1>
-  </div>
+  <Navbar :title="$t('nav.titleProjects')" :key="$i18n.locale"/>
+  <div>Projects Page</div>
 </template>
 
 <script>
