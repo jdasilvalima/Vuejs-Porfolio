@@ -1,23 +1,40 @@
 <template>
-  <nav>
+  <MobileNavbar
+    v-if="visibleMobileNav"
+    class="md:hidden h-screen w-screen absolute"
+    @mobileNav="closeMobileNav"
+    @mobileLocale="setLocale"
+    @mobileTheme="switchDarkLightMode"
+  />
+  <nav class="dark:bg-gray-800 pt-10">
+    <!-- Start mobile menu -->
+    <div class="flex justify-end mr-10 md:hidden">
+      <img
+        class="h-11 w-11 cursor-pointer"
+        :src="darkLightMenu"
+        alt="mobile menu"
+        @click="visibleMobileNav = !visibleMobileNav"
+      />
+    </div>
+    <!-- End mobile menu -->
     <!-- Start top navbar -->
     <div
-      class="h-20 flex justify-around items-center dark:bg-gray-800"
+      class="flex justify-around items-center flex-col md:flex-row mt-10 mb-1"
     >
-      <div class="text-teal-700 dark:text-teal-50 text-2xl font-bold mr-3">
-        {{ title }}
-      </div>
-      <div>
+      <div class="md:order-last mb-5 md:mb-0">
         <img
           class="h-16 w-16 rounded-full"
           src="../../assets/color.jpg"
           alt="profile picture"
         />
       </div>
+      <div class="text-teal-700 dark:text-teal-50 text-2xl font-bold">
+        {{ title }}
+      </div>
     </div>
     <!-- End top navbar -->
     <!-- Start bottom navbar -->
-    <div class="h-7 flex justify-around items-center dark:bg-gray-800">
+    <div class="h-7 flex justify-around items-center invisible md:visible">
       <div class="flex space-x-5">
         <div
           id="nav-link"
@@ -42,7 +59,7 @@
           :src="darkLightIcon"
           alt="choose dark or light mode"
           class="h-5 w-5 cursor-pointer"
-          @click="darkOrLightMode"
+          @click="switchDarkLightMode"
         />
         <span
           class="text-gray-600 dark:text-teal-100 font-bold capitalize cursor-pointer"
@@ -57,8 +74,13 @@
 </template>
 
 <script>
+import MobileNavbar from "@/components/navbar/MobileNavbar.vue";
+
 export default {
-  props: ['title'],
+  props: ["title"],
+  components: {
+    MobileNavbar,
+  },
   data: function () {
     return {
       navbars: [
@@ -68,27 +90,40 @@ export default {
       ],
       language: "fr",
       darkLightIcon: null,
+      darkLightMenu: null,
+      visibleMobileNav: false,
     };
   },
   created() {
     localStorage.getItem("theme") === "light"
-      ? (this.darkLightIcon = require(`../../assets/moon.svg`))
-      : (this.darkLightIcon = require(`../../assets/sun.svg`));
+      ? this.lightMode()
+      : this.darkMode();
   },
   methods: {
     setLocale(locale) {
       this.$i18n.locale = locale;
     },
-    darkOrLightMode() {
+    switchDarkLightMode() {
       if (localStorage.getItem("theme") === "light") {
         localStorage.setItem("theme", "dark");
-        document.documentElement.classList.add("dark");
-        this.darkLightIcon = require(`../../assets/sun.svg`);
+        this.darkMode();
       } else {
         localStorage.setItem("theme", "light");
-        document.documentElement.classList.remove("dark");
-        this.darkLightIcon = require(`../../assets/moon.svg`);
+        this.lightMode();
       }
+    },
+    lightMode() {
+      document.documentElement.classList.remove("dark");
+      this.darkLightIcon = require(`../../assets/moon.svg`);
+      this.darkLightMenu = require(`../../assets/drawing/menu_light.svg`);
+    },
+    darkMode() {
+      document.documentElement.classList.add("dark");
+      this.darkLightIcon = require(`../../assets/sun.svg`);
+      this.darkLightMenu = require(`../../assets/drawing/menu_dark.svg`);
+    },
+    closeMobileNav(data) {
+      this.visibleMobileNav = data;
     },
   },
 };
