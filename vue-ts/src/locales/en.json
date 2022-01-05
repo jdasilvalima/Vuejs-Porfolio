@@ -1,6 +1,8 @@
 {
   "nav": {
-    "title": "Bonjour, I'm Jade",
+    "titleGoal": "Bonjour, I'm Jade",
+    "titleProjects": "Samples of my work",
+    "titleAbout": "A little bit more about me",
     "goal": "Goal",
     "projects": "Projects",
     "about": "About"

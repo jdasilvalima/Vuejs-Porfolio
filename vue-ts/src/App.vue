@@ -8,7 +8,6 @@ export default {
     return {};
   },
   beforeCreate() {
-    //this.darkModeCheck();
     if(localStorage.getItem('theme') === null)
       localStorage.setItem('theme', 'light');
   },
@@ -16,17 +15,7 @@ export default {
     //localStorage.removeItem('theme');
   },
   methods: {
-    darkModeCheck() {
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    },
+  
   },
 };
 </script>
@@ -38,9 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

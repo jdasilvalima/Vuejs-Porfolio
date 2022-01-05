@@ -1,14 +1,14 @@
 <template>
-  <Navbar :key="$i18n.locale"/>
+  <NavbarMobile :title="$t('nav.titleGoal')" :key="$i18n.locale"/>
   <div>Goal Page</div>
 </template>
 
 <script>
-import Navbar from '../components/navbar/Navbar';
+import NavbarMobile from '../components/navbar/NavbarMobile';
 
 export default {
   components: {
-    Navbar,
+    NavbarMobile,
   },
   data: function () {
     return {

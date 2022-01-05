@@ -1,5 +1,5 @@
 <template>
-  <Navbar :key="$i18n.locale"/>
+  <Navbar :title="$t('nav.titleProjects')" :key="$i18n.locale"/>
   <div>Projects Page</div>
 </template>
 

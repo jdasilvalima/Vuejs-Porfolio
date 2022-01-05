@@ -1,23 +1,26 @@
 <template>
-  <nav>
+  <nav class="dark:bg-gray-800 pt-10">
+    <!-- Start mobile menu -->
+    <div class="flex justify-end mr-10 md:hidden">
+      <img class="h-11 w-11" :src="darkLightMenu" alt="mobile menu" />
+    </div>
+    <!-- End mobile menu -->
     <!-- Start top navbar -->
-    <div
-      class="h-20 flex justify-around items-center dark:bg-gray-800"
-    >
-      <div class="text-teal-700 dark:text-teal-50 text-2xl font-bold mr-3">
-        {{ title }}
-      </div>
-      <div>
+    <div class="flex justify-around items-center flex-col md:flex-row mt-10 mb-1">
+      <div class="md:order-last mb-5 md:mb-0">
         <img
           class="h-16 w-16 rounded-full"
           src="../../assets/color.jpg"
           alt="profile picture"
         />
       </div>
+      <div class="text-teal-700 dark:text-teal-50 text-2xl font-bold">
+        {{ title }}
+      </div>
     </div>
     <!-- End top navbar -->
     <!-- Start bottom navbar -->
-    <div class="h-7 flex justify-around items-center dark:bg-gray-800">
+    <div class="h-7 flex justify-around items-center invisible md:visible">
       <div class="flex space-x-5">
         <div
           id="nav-link"
@@ -58,7 +61,7 @@
 
 <script>
 export default {
-  props: ['title'],
+  props: ["title"],
   data: function () {
     return {
       navbars: [
@@ -68,12 +71,16 @@ export default {
       ],
       language: "fr",
       darkLightIcon: null,
+      darkLightMenu: null,
     };
   },
   created() {
     localStorage.getItem("theme") === "light"
       ? (this.darkLightIcon = require(`../../assets/moon.svg`))
       : (this.darkLightIcon = require(`../../assets/sun.svg`));
+    localStorage.getItem("theme") === "light"
+      ? (this.darkLightMenu = require(`../../assets/drawing/menu_dark.svg`))
+      : (this.darkLightMenu = require(`../../assets/drawing/menu_light.svg`));
   },
   methods: {
     setLocale(locale) {
@@ -84,10 +91,12 @@ export default {
         localStorage.setItem("theme", "dark");
         document.documentElement.classList.add("dark");
         this.darkLightIcon = require(`../../assets/sun.svg`);
+        this.darkLightMenu = require(`../../assets/drawing/menu_dark.svg`);
       } else {
         localStorage.setItem("theme", "light");
         document.documentElement.classList.remove("dark");
         this.darkLightIcon = require(`../../assets/moon.svg`);
+        this.darkLightMenu = require(`../../assets/drawing/menu_light.svg`);
       }
     },
   },
