@@ -1,14 +1,14 @@
 <template>
-  <NavbarMobile :title="$t('nav.titleGoal')" :key="$i18n.locale"/>
+  <Navbar :title="$t('nav.titleGoal')" :key="$i18n.locale"/>
   <div>Goal Page</div>
 </template>
 
 <script>
-import NavbarMobile from '../components/navbar/NavbarMobile';
+import Navbar from '@/components/navbar/Navbar.vue';
 
 export default {
   components: {
-    NavbarMobile,
+    Navbar,
   },
   data: function () {
     return {
