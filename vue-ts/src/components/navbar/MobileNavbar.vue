@@ -66,8 +66,8 @@ export default {
   },
   created() {
     localStorage.getItem("theme") === "light"
-      ? this.darkLightIcon = require(`@/assets/moon-mobile.svg`)
-      : this.darkLightIcon = require(`@/assets/sun-mobile.svg`);
+      ? (this.darkLightIcon = require(`@/assets/moon-mobile.svg`))
+      : (this.darkLightIcon = require(`@/assets/sun-mobile.svg`));
   },
   methods: {
     mobileSetLocale(locale) {
