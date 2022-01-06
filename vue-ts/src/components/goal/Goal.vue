@@ -3,7 +3,7 @@
     <div class="dark:text-teal-50 text-xl font-semibold pb-10">
       Software Developer and Project Manager
     </div>
-    <div class="grid grid-cols-16 md:grid-cols-12 grid-rows-10 gap-4">
+    <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-10 gap-4">
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
@@ -47,7 +47,7 @@
         <img
           class="h-32 md:h-auto"
           :src="darkLightFiles"
-          alt="chart image"
+          alt="files image"
         />
       </div>
       <div
@@ -84,7 +84,7 @@
         <img
           class="h-32 md:h-60"
           :src="darkLightAccept"
-          alt="chart image"
+          alt="accept image"
         />
       </div>
     </div>
