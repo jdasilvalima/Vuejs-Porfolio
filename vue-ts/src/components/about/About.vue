@@ -78,9 +78,66 @@
 
       <!-- Start education -->
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-10"
       >
         Education along the way
+      </div>
+
+      <div
+        class="col-start-1 md:col-start-3 col-span-6 md:col-span-1 flex justify-center"
+      >
+        <img src="@/assets/dawan.png" alt="Dawan logo" class="max-h-14" />
+      </div>
+
+      <div
+        class="text-left md:col-start-4 col-span-7 grid grid-cols-1 md:grid-cols-2"
+      >
+        <div class="font-semibold text-teal-700 dark:text-teal-500">
+          Computer Science degree - Apprenticeship program
+        </div>
+        <div class="text-gray-800 dark:text-teal-50 italic">
+          September 2020 - December 2021
+        </div>
+        <div class="font-medium text-teal-600 dark:text-teal-100">Dawan</div>
+        <div class="text-gray-800 dark:text-teal-50">Paris (France)</div>
+      </div>
+
+      <div
+        class="text-gray-800 dark:text-teal-50 text-left mb-5 md:col-start-4 col-span-7"
+      >
+        <span class="font-bold">Relevant Coursework : </span> Object-oriented
+        programming, design patterns, software development, mobile development,
+        database and information systems, test-driven development, agile
+        software projects
+      </div>
+
+      <div
+        class="col-start-1 md:col-start-3 col-span-6 md:col-span-1 flex justify-center"
+      >
+        <img src="@/assets/bsa.png" alt="BSA logo" class="max-h-14" />
+      </div>
+
+      <div
+        class="text-left md:col-start-4 col-span-7 grid grid-cols-1 md:grid-cols-2"
+      >
+        <div class="font-semibold text-teal-700 dark:text-teal-500">
+          Master of Agriculture and Food Sciences
+        </div>
+        <div class="text-gray-800 dark:text-teal-50 italic">
+          September 2011 – September 2014
+        </div>
+        <div class="font-medium text-teal-600 dark:text-teal-100">
+          Bordeaux Sciences Agro
+        </div>
+        <div class="text-gray-800 dark:text-teal-50">Bordeaux (France)</div>
+      </div>
+
+      <div
+        class="text-gray-800 dark:text-teal-50 text-left md:col-start-4 col-span-7"
+      >
+        <span class="font-bold">Relevant Coursework : </span> Quality,
+        Integrated Management and Sustainable Development, QSE Management tools
+        for engineers in food value chains, Business Economics
       </div>
       <!-- End education -->
 
@@ -181,6 +238,26 @@ export default {
             "Monitored and managed customer satisfaction: customer complaints, specifications, create and update final specifications",
             "Helped to create new products (production and quality records to create, final specification and packaging)",
           ],
+        },
+      ],
+      studies: [
+        {
+          id: 1,
+          title: "Computer Science degree - Apprenticeship program",
+          dates: "September 2020 - December 2021",
+          shcool: "Dawan",
+          location: "Paris (France)",
+          courses:
+            "Object-oriented programming, design patterns, software development, mobile development, database and information systems, test-driven development, agile software projects",
+        },
+        {
+          id: 2,
+          title: "Master of Agriculture and Food Sciences",
+          dates: "September 2011 – September 2014",
+          shcool: "Bordeaux Sciences Agro",
+          location: "Bordeaux (France)",
+          courses:
+            "Quality, Integrated Management and Sustainable Development, QSE Management tools for engineers in food value chains, Business Economics",
         },
       ],
     };
