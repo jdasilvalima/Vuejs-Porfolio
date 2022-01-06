@@ -49,7 +49,7 @@
             href="https://www.linkedin.com/in/jade-da-silva-lima/"
             target="_blank"
           >
-            <img src="../../assets/linkedin-icon.svg" alt="LinkedIn logo" />
+            <img src="@/assets/linkedin-icon.svg" alt="LinkedIn logo" />
           </a>
         </div>
       </div>

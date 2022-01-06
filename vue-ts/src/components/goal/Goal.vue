@@ -1,9 +1,9 @@
 <template>
   <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
     <div class="dark:text-teal-50 text-xl font-semibold pb-10">
-      Software Developer and Project Manager
+      Software Developer & Project Manager
     </div>
-    <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-10 gap-4">
+    <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
