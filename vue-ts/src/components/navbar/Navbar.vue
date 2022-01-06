@@ -111,6 +111,7 @@ export default {
         localStorage.setItem("theme", "light");
         this.lightMode();
       }
+      this.$emit("darkLightChild");
     },
     lightMode() {
       document.documentElement.classList.remove("dark");
