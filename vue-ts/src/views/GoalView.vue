@@ -1,11 +1,15 @@
 <template>
-  <Navbar :title="$t('nav.titleGoal')" :key="$i18n.locale" @darkLightChild="darkLightParent"/>
-  <Goal :updateModeChild="updateMode"/>
+  <Navbar
+    :title="$t('nav.titleGoal')"
+    :key="$i18n.locale"
+    @darkLightChild="darkLightParent"
+  />
+  <Goal :updateModeChild="updateMode" />
 </template>
 
 <script>
-import Navbar from '@/components/navbar/Navbar.vue';
-import Goal from '@/components/goal/Goal.vue';
+import Navbar from "@/components/navbar/Navbar.vue";
+import Goal from "@/components/goal/Goal.vue";
 
 export default {
   components: {
@@ -20,11 +24,9 @@ export default {
   methods: {
     darkLightParent() {
       this.updateMode = !this.updateMode;
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
