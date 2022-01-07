@@ -26,7 +26,7 @@
           </li>
           <li class="mb-5">Created a computerized quality management system ;</li>
           <li class="mb-5">
-            Coded a portfolio (Vue.js) to explain how I am using my knowledge in
+            Coded <router-link class="text-teal-400" :to="{ name: 'PortfolioProject'}">a portfolio</router-link> (Vue.js) to explain how I am using my knowledge in
             project & quality management with software development.
           </li>
         </ul>
@@ -43,6 +43,7 @@
       </div>
 
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
