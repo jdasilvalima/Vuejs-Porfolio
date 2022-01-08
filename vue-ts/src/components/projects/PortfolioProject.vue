@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Project - Personal portfolio
+        Project - Personal Portfolio
       </div>
 
       <div

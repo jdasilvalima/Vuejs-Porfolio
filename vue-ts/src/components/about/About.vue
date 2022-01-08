@@ -8,7 +8,7 @@
         “Simple & Efficient”
       </div>
       <div
-        class="text-gray-800 dark:text-teal-50 text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
         Throughout my career as a quality manager for food companies, I have
         often wanted to be able to
@@ -59,7 +59,7 @@
             class="bg-gray-50 dark:bg-gray-600"
           >
             <ul
-              class="text-gray-800 dark:text-teal-50 text-sm text-left px-5 md:px-10 py-5 list-disc list-inside"
+              class="text-gray-800 dark:text-teal-50 text-sm text-justify px-5 md:px-10 py-5 list-disc list-inside"
             >
               <li v-for="task in job.tasks" :key="task">
                 {{ task }}
@@ -103,7 +103,7 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left mb-5 md:col-start-4 col-span-7"
+        class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-4 col-span-7"
       >
         <span class="font-bold">Relevant Coursework : </span> Object-oriented
         programming, design patterns, software development, mobile development,
@@ -133,7 +133,7 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-4 col-span-7"
+        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-4 col-span-7"
       >
         <span class="font-bold">Relevant Coursework : </span> Quality,
         Integrated Management and Sustainable Development, QSE Management tools

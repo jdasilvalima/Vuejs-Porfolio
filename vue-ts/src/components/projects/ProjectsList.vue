@@ -9,9 +9,9 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-8 row-start-2"
       >
-        <ul class="list-disc list-outside">
+        <ul class="list-disc list-inside text-justify">
           <li class="mb-5">
-            Built a planning application (Java / Vue.js) for a training center
+            Built <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningWebProject'}">a planning application</router-link> (Java / Vue.js) for a training center
             to help both the Sales and the HR teams keep track of trainers’
             schedules and the list of courses available for sales ;
           </li>
@@ -26,7 +26,7 @@
           </li>
           <li class="mb-5">Created a computerized quality management system ;</li>
           <li class="mb-5">
-            Coded <router-link class="text-teal-400" :to="{ name: 'PortfolioProject'}">a portfolio</router-link> (Vue.js) to explain how I am using my knowledge in
+            Coded <router-link class="text-teal-400 hover:underline" :to="{ name: 'PortfolioProject'}">a portfolio</router-link> (Vue.js) to explain how I am using my knowledge in
             project & quality management with software development.
           </li>
         </ul>
