@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Project - Planning Web Application (Java / Vue.js)
+        Project - Android planning application (Java)
       </div>
 
       <!-- Start Analysis -->
@@ -37,9 +37,9 @@
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/use-case-planning-web.png"
+          src="@/assets/use-case-planning-android.png"
           alt="Use case image for Planning Web Application project"
-          class="max-h-48"
+          class=""
         />
       </div>
       <!-- End Analysis -->
@@ -104,8 +104,7 @@
       >
         <ul class="list-disc list-inside">
           <li class="mb-3">
-            <span class="font-semibold">Front-End :</span> Vue.js, Vuetify,
-            Vuex, Vue router, Vue i18n
+            <span class="font-semibold">Android application :</span> Java
           </li>
           <li class="mb-3">
             <span class="font-semibold">Back-End :</span> Frameworks Spring
@@ -129,7 +128,7 @@
 
       <div class="md:col-start-9 col-span-6 md:col-span-2 flex justify-center">
         <img
-          src="@/assets/layers-planning-front.png"
+          src="@/assets/layers-planning-android.png"
           alt="Organization layers planning web appliation - Front-End"
           class="max-h-48"
         />
@@ -155,20 +154,14 @@
       <div
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
-        <div
-          class="text-gray-800 dark:text-teal-50 text-left md:order-last"
-        >
+        <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
           <ul class="list-disc list-inside">
             <li class="mb-3">
-              <span class="font-semibold">Structural tests :</span> Jest & JUnit
+              <span class="font-semibold">Structural tests :</span> JUnit
               5 (Jacoco for code coverage)
             </li>
             <li class="mb-3">
-              <span class="font-semibold">Functional tests :</span> Nightwatch
-            </li>
-            <li class="mb-3">
-              <span class="font-semibold">Performance tests :</span> JMeter &
-              Lighthouse
+              <span class="font-semibold">Performance tests :</span> JMeter
             </li>
             <li class="mb-3">
               <span class="font-semibold">Security testing :</span> OWASP Guide
@@ -187,68 +180,39 @@
         <!-- Start icon testing -->
         <div>
           <div
-            class="md:pr-10 mt-10 md:mt-0 grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
+            class="md:pr-10 mt-10 md:mt-0 grid grid-cols-3 grid-rows-1 gap-2 justify-items-center items-end"
           >
             <div>
               <img
-                src="@/assets/jest.png"
-                alt="Jest logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Jest</span
-              >
-            </div>
-            <div class="md:col-start-2 grid grid-rows-auto">
-              <img
                 src="@/assets/junit5.png"
-                alt="JUnit 5 logo"
+                alt="junit5 logo"
                 class="max-h-16 md:max-h-20"
               />
               <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
                 >Junit 5</span
               >
             </div>
-            <div class="md:col-start-3 grid grid-rows-auto">
-              <img
-                src="@/assets/nightwatch.png"
-                alt="Nightwatch logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Nightwatch</span
-              >
-            </div>
-            <div class="row-start-2">
+            <div class="md:col-start-2 grid grid-rows-auto">
               <img
                 src="@/assets/jmeter.png"
-                alt="JMeter logo"
+                alt="jmeter logo"
                 class="max-h-16 md:max-h-20"
               />
               <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
                 >JMeter</span
               >
             </div>
-            <div class="md:col-start-2 grid grid-rows-auto">
+            <div class="md:col-start-3 grid grid-rows-auto">
               <img
                 src="@/assets/owasp.png"
-                alt="OWASP logo"
+                alt="owasp logo"
                 class="max-h-16 md:max-h-20"
               />
               <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
                 >OWASP ZAP</span
               >
             </div>
-            <div class="md:col-start-3 grid grid-rows-auto">
-              <img
-                src="@/assets/lighthouse.png"
-                alt="Lighthouse logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Lighthouse</span
-              >
-            </div>
+            
           </div>
         </div>
 
@@ -278,17 +242,18 @@
       >
         <ul class="list-disc list-inside">
           <li class="mb-3">CI / CD with GitLab</li>
+          <li class="mb-3">Created a link to download the APK</li>
           <li class="mb-3">
-            Deployed in production with with Harbore & Rundeck
+            Created a user guide
           </li>
         </ul>
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/planning-web.png"
+          src="@/assets/planning-android.png"
           alt="Planning Web Application project screen shot"
-          class="max-h-48"
+          class="max-h-72"
         />
       </div>
       <!-- End implementation -->
@@ -356,17 +321,16 @@ export default {
         "Created a lean canvas",
       ],
       design: [
-        "The wireframing tool, Uxpin, was used to create the mock-up",
-        "The sequence of screens of the website to build was done using draw.io",
+        "The wireframing tool, Figma, was used to create the mock-up.",
         "Accessibility and security were taking in consideration while doing the design",
         "I created a Kanban task board with all the users stories in Notion",
       ],
       positive: [
-        "Created the web application from scratch",
-        "Learn new technologies and tools (WebSocket, Vuex store, Vue i18n , etc.)",
-        "Learn more about tests",
+        "Created an Android application from scratch",
+        "Have positive feedbacks from users",
+        "Improve an application performance",
       ],
-      improvement: ["Could respect better Agile method"],
+      improvement: ["Respect TDD method during the whole project"],
     };
   },
   watch: {
