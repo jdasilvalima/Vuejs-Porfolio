@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen dark:bg-gray-800">
+  <div class="h-full dark:bg-gray-800 xl:px-28">
     <Navbar
       :title="$t('nav.titleProjects')"
       :key="$i18n.locale"
