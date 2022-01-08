@@ -3,13 +3,15 @@
   <ProjectsList v-if="$route.path == '/projects'" :updateModeChild="updateMode"/>
   <PortfolioProject v-if="$route.path == '/projects/portfolio'" :updateModeChild="updateMode"/>
   <PlanningProject v-if="$route.path == '/projects/planning-web'" :updateModeChild="updateMode"/>
+  <QualityProject v-if="$route.path == '/projects/quality'" :updateModeChild="updateMode"/>
 </template>
 
 <script>
 import Navbar from '@/components/navbar/Navbar.vue';
 import ProjectsList from '@/components/projects/ProjectsList.vue';
 import PortfolioProject from '@/components/projects/PortfolioProject.vue';
-import PlanningProject from '../components/projects/PlanningProject.vue';
+import PlanningProject from '@/components/projects/PlanningProject.vue';
+import QualityProject from '@/components/projects/QualityProject.vue';
 
 export default {
   components: {
@@ -17,6 +19,7 @@ export default {
     ProjectsList,
     PortfolioProject,
     PlanningProject,
+    QualityProject,
   },
   data: function () {
     return {
