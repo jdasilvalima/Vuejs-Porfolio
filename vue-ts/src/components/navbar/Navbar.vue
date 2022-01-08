@@ -18,29 +18,31 @@
     </div>
     <!-- End mobile menu -->
     <!-- Start top navbar -->
-    <div
-      class="flex justify-around items-center flex-col md:flex-row mt-10 mb-1"
-    >
-      <div class="md:order-last mb-5 md:mb-0">
+    <div class="grid grid-cols-6 md:grid-cols-12 mt-10 mb-1">
+      <div
+        class="md:order-last mb-5 md:mb-0 md:col-start-10 col-span-6 md:col-span-1 flex justify-center"
+      >
         <img
           class="h-16 w-16 rounded-full"
           src="../../assets/color.jpg"
           alt="profile picture"
         />
       </div>
-      <div class="text-teal-700 dark:text-teal-50 text-2xl font-bold">
+      <div
+        class="text-teal-700 dark:text-teal-50 text-2xl md:text-left font-bold md:col-start-3 col-span-6 md:col-span-4 grid content-center"
+      >
         {{ title }}
       </div>
     </div>
     <!-- End top navbar -->
     <!-- Start bottom navbar -->
-    <div class="h-7 flex justify-around items-center invisible md:visible">
-      <div class="flex space-x-5">
+    <div class="grid grid-cols-6 md:grid-cols-12 invisible md:visible">
+      <div class="flex justify-start md:col-start-3 col-span-6 md:col-span-4">
         <div
           id="nav-link"
           v-for="navbar in navbars"
           :key="navbar.names"
-          class="text-teal-400 font-medium"
+          class="text-teal-400 font-medium mr-5"
         >
           <router-link :to="navbar.router">{{ navbar.names }}</router-link>
         </div>
@@ -54,11 +56,11 @@
         </div>
       </div>
 
-      <div class="flex space-x-3 mr-3">
+      <div class="md:col-start-10 flex justify-center">
         <img
           :src="darkLightIcon"
           alt="choose dark or light mode"
-          class="h-5 w-5 cursor-pointer"
+          class="h-5 w-5 mr-3 cursor-pointer"
           @click="switchDarkLightMode"
         />
         <span
