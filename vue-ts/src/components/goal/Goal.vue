@@ -10,7 +10,7 @@
         My Purpose
       </div>
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-8 mb-10 md:mb-16"
+        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-8 mb-10 md:mb-16"
       >
         Built softwares to help companies to automate their processes, do a
         better monitoring and help them to take decision throught their data 📊.
@@ -22,7 +22,7 @@
         Monitoring
       </div>
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-5"
+        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-5"
       >
         It is important for companies to be reactive in this fast modern world
         🌍. Monitoring processes and indicators with the help of softwares can
@@ -56,7 +56,7 @@
         Automate
       </div>
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-6 col-span-6 md:col-span-5 grid content-start row-start-7 md:row-start-6"
+        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-6 col-span-6 md:col-span-5 grid content-start row-start-7 md:row-start-6"
       >
         It happens frequently that teams are under pressure with an important
         amount of workload 🗃️. Softwares can automate some taks in order to save
@@ -71,7 +71,7 @@
         Decision helper
       </div>
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-5 md:row-start-8"
+        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-5 md:row-start-8"
       >
         Nowadays, we receive thousands of data in a week 🔢. I like to get
         revelant information from this data to help teams to take decision with
