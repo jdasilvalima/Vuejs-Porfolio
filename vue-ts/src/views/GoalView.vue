@@ -1,10 +1,12 @@
 <template>
-  <Navbar
-    :title="$t('nav.titleGoal')"
-    :key="$i18n.locale"
-    @darkLightChild="darkLightParent"
-  />
-  <Goal :updateModeChild="updateMode" />
+  <div class="h-screen dark:bg-gray-800">
+    <Navbar
+      :title="$t('nav.titleGoal')"
+      :key="$i18n.locale"
+      @darkLightChild="darkLightParent"
+    />
+    <Goal :updateModeChild="updateMode" />
+  </div>
 </template>
 
 <script>

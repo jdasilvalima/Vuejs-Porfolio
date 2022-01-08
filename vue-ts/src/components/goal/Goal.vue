@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="dark:text-teal-50 text-xl font-semibold pb-10">
       Software Developer & Project Manager
     </div>

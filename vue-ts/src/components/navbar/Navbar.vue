@@ -6,7 +6,7 @@
     @mobileLocale="setLocale"
     @mobileTheme="switchDarkLightMode"
   />
-  <nav class="dark:bg-gray-800 pt-10">
+  <nav class="pt-10">
     <!-- Start mobile menu -->
     <div class="flex justify-end mr-10 md:hidden">
       <img

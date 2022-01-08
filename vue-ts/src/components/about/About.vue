@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <!-- Start presentation -->
       <div
