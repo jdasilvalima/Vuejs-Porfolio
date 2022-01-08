@@ -8,7 +8,7 @@
       </div>
 
       <!-- Start Analysis -->
-      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="mt-10 md:col-start-3 col-span-6 md:col-span-8 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -45,7 +45,7 @@
       <!-- End Analysis -->
 
       <!-- Start design -->
-      <div class="md:col-start-7 col-span-6 md:col-span-4 flex">
+      <div class="mt-16 md:col-start-7 col-span-6 md:col-span-4 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -73,7 +73,7 @@
       </div>
 
       <div
-        class="md:col-start-3 col-span-6 md:col-span-4 flex justify-end md:row-start-5"
+        class="md:col-start-3 col-span-6 md:col-span-4 md:mr-7 flex justify-center md:row-start-5"
       >
         <img
           src="@/assets/notion-planning.png"
@@ -84,7 +84,7 @@
       <!-- End design -->
 
       <!-- Start coding -->
-      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="mt-16 md:col-start-3 col-span-6 md:col-span-8 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -137,7 +137,7 @@
       <!-- End coding -->
 
       <!-- Start testing -->
-      <div class="md:col-start-7 col-span-6 md:col-span-4 flex">
+      <div class="mt-16 md:col-start-7 col-span-6 md:col-span-4 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -187,7 +187,7 @@
         <!-- Start icon testing -->
         <div>
           <div
-            class="grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
+            class="md:pr-10 mt-10 md:mt-0 grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
           >
             <div>
               <img
@@ -258,7 +258,7 @@
       <!-- End testing -->
 
       <!-- Start implementation -->
-      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="mt-16 md:col-start-3 col-span-6 md:col-span-8 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -284,7 +284,7 @@
         </ul>
       </div>
 
-      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-end">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
           src="@/assets/planning-web.png"
           alt="Planning Web Application project screen shot"
@@ -294,14 +294,14 @@
       <!-- End implementation -->
 
       <div
-        class="my-10 md:col-start-3 col-span-6 md:col-span-8 grid justify-items-center"
+        class="my-16 md:col-start-3 col-span-6 md:col-span-8 grid justify-items-center"
       >
         <img class="w-28" :src="darkLightDots" alt="dots image" />
       </div>
 
       <!-- Start feedback -->
       <div
-        class="md:col-start-3 col-span-6 md:col-span-8 grid grid-cols-8 grid-rows-auto"
+        class="md:col-start-3 col-span-8 md:col-span-8 grid grid-cols-8 grid-rows-auto"
       >
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 col-span-6 md:col-span-4"
@@ -310,7 +310,7 @@
         </div>
 
         <div
-          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 col-span-6 md:col-span-4 md:row-start-2"
+          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 col-span-8 md:col-span-4 md:row-start-2"
         >
           <ul
             class="list-disc list-inside text-justify"
@@ -322,13 +322,13 @@
         </div>
 
         <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-6 md:col-span-4 md:row-start-1"
+          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-8 md:col-span-4 md:row-start-1"
         >
           🤔 What I would like to do better next time
         </div>
 
         <div
-          class="text-gray-800 dark:text-teal-50 text-left md:col-start-5 col-span-6 md:col-span-4 md:row-start-2"
+          class="text-gray-800 dark:text-teal-50 text-left md:col-start-5 col-span-8 md:col-span-4 md:row-start-2"
         >
           <ul
             class="list-disc list-inside text-justify"
