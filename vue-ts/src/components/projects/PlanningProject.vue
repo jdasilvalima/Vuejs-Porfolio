@@ -35,7 +35,7 @@
         </ul>
       </div>
 
-      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-end">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
           src="@/assets/use-case-planning-web.png"
           alt="Use case image for Planning Web Application project"
@@ -45,7 +45,7 @@
       <!-- End Analysis -->
 
       <!-- Start design -->
-      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -54,14 +54,14 @@
           >
         </div>
         <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
+          class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
           Design
         </div>
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
+        class="text-gray-800 dark:text-teal-50 text-left md:col-start-7 col-span-6 md:col-span-4"
       >
         <ul
           class="list-disc list-inside text-justify"
@@ -72,7 +72,9 @@
         </ul>
       </div>
 
-      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-end">
+      <div
+        class="md:col-start-3 col-span-6 md:col-span-4 flex justify-end md:row-start-5"
+      >
         <img
           src="@/assets/notion-planning.png"
           alt="Use case image for Planning Web Application project"
@@ -135,7 +137,7 @@
       <!-- End coding -->
 
       <!-- Start testing -->
-      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -144,107 +146,115 @@
           >
         </div>
         <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
+          class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
           Testing
         </div>
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
+        class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
-        <ul class="list-disc list-inside">
-          <li class="mb-3">
-            <span class="font-semibold">Structural tests :</span> Jest & JUnit 5
-            (Jacoco for code coverage)
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">Functional tests :</span> Nightwatch
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">Performance tests :</span> JMeter &
-            Lighthouse
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">Security testing :</span> OWASP Guide &
-            OWASP ZAP
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">Quality testing :</span> SonarQube
-          </li>
-          <li>
-            <span class="font-semibold">User testing :</span> Spreadsheets for
-            Admin & Non-Admin
-          </li>
-        </ul>
+        <div
+          class="text-gray-800 dark:text-teal-50 text-left md:order-last"
+        >
+          <ul class="list-disc list-inside">
+            <li class="mb-3">
+              <span class="font-semibold">Structural tests :</span> Jest & JUnit
+              5 (Jacoco for code coverage)
+            </li>
+            <li class="mb-3">
+              <span class="font-semibold">Functional tests :</span> Nightwatch
+            </li>
+            <li class="mb-3">
+              <span class="font-semibold">Performance tests :</span> JMeter &
+              Lighthouse
+            </li>
+            <li class="mb-3">
+              <span class="font-semibold">Security testing :</span> OWASP Guide
+              & OWASP ZAP
+            </li>
+            <li class="mb-3">
+              <span class="font-semibold">Quality testing :</span> SonarQube
+            </li>
+            <li>
+              <span class="font-semibold">User testing :</span> Spreadsheets for
+              Admin & Non-Admin
+            </li>
+          </ul>
+        </div>
+
+        <!-- Start icon testing -->
+        <div>
+          <div
+            class="grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
+          >
+            <div>
+              <img
+                src="@/assets/jest.png"
+                alt="Jest logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >Jest</span
+              >
+            </div>
+            <div class="md:col-start-2 grid grid-rows-auto">
+              <img
+                src="@/assets/junit5.png"
+                alt="JUnit 5 logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >Junit 5</span
+              >
+            </div>
+            <div class="md:col-start-3 grid grid-rows-auto">
+              <img
+                src="@/assets/nightwatch.png"
+                alt="Nightwatch logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >Nightwatch</span
+              >
+            </div>
+            <div class="row-start-2">
+              <img
+                src="@/assets/jmeter.png"
+                alt="JMeter logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >JMeter</span
+              >
+            </div>
+            <div class="md:col-start-2 grid grid-rows-auto">
+              <img
+                src="@/assets/owasp.png"
+                alt="OWASP logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >OWASP ZAP</span
+              >
+            </div>
+            <div class="md:col-start-3 grid grid-rows-auto">
+              <img
+                src="@/assets/lighthouse.png"
+                alt="Lighthouse logo"
+                class="max-h-16 md:max-h-20"
+              />
+              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
+                >Lighthouse</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- End icon testing -->
       </div>
 
-      <!-- Start icon testing -->
-      <div
-        class="md:col-start-8 col-span-6 md:col-span-3 grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
-      >
-        <div>
-          <img
-            src="@/assets/jest.png"
-            alt="Jest logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >Jest</span
-          >
-        </div>
-        <div class="md:col-start-2 grid grid-rows-auto">
-          <img
-            src="@/assets/junit5.png"
-            alt="JUnit 5 logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >Junit 5</span
-          >
-        </div>
-        <div class="md:col-start-3 grid grid-rows-auto">
-          <img
-            src="@/assets/nightwatch.png"
-            alt="Nightwatch logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >Nightwatch</span
-          >
-        </div>
-        <div class="row-start-2">
-          <img
-            src="@/assets/jmeter.png"
-            alt="JMeter logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >JMeter</span
-          >
-        </div>
-        <div class="md:col-start-2 grid grid-rows-auto">
-          <img
-            src="@/assets/owasp.png"
-            alt="OWASP logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >OWASP ZAP</span
-          >
-        </div>
-        <div class="md:col-start-3 grid grid-rows-auto">
-          <img
-            src="@/assets/lighthouse.png"
-            alt="Lighthouse logo"
-            class="max-h-16 md:max-h-20"
-          />
-          <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-            >Lighthouse</span
-          >
-        </div>
-      </div>
-      <!-- End icon testing -->
       <!-- End testing -->
 
       <!-- Start implementation -->
