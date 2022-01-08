@@ -16,7 +16,7 @@
             schedules and the list of courses available for sales ;
           </li>
           <li class="mb-5">
-            Developed an Android version (Java) of the planning application for
+            Developed an <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningAndroidProject'}">Android application</router-link> (Java) of the planning for
             non-admin users ;
           </li>
           <li class="mb-5">Built a calendar application for the HR team (C# / Vue.js) ;</li>
