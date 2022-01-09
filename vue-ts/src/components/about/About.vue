@@ -1,27 +1,17 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <!-- Start presentation -->
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
-        “Simple & Efficient”
+        {{ $t("about.title1") }}
       </div>
       <div
         class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-3 col-span-6 md:col-span-8"
+        v-html="$t('about.title1Text')"
       >
-        Throughout my career as a quality manager for food companies, I have
-        often wanted to be able to
-        <span class="font-semibold">code tools</span> that would allow me to
-        automate and do better monitoring. Back from my four-year stay in the
-        United States, I decided to take the plunge and obtain a
-        <span class="font-semibold">computer science degree</span>.
-        <div class="mb-1"><br /></div>
-        Today I am happy to be able to make the link between my knowledge in
-        <span class="font-semibold">quality management</span> and the one in
-        <span class="font-semibold">software development</span>. I am currently
-        creating simple and efficient softwares to help teams in their daily
-        tasks and to take decisions on the long term.
+        
       </div>
       <!-- End presentation -->
 
@@ -34,7 +24,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
-        My double experience as a Quality Manager & a Software Developer
+        {{ $t("about.title2") }}
       </div>
 
       <!-- Start collapse experiences -->
@@ -191,15 +181,15 @@ export default {
       jobExperience: [
         {
           id: 1,
-          title: "Software Developer",
-          dates: "September 2020 – December 2021",
-          company: "Dawan - Consulting & IT training center",
+          title: this.$t('about.dawan.title'),
+          dates: this.$t('about.dawan.dates'),
+          company: this.$t('about.dawan.company'),
           location: "Paris (France)",
           tasks: [
-            "Built a planning application, for a training center, to help both the Sales and the HR team to keep track of trainers’ schedules and the list of courses sold (Java / Vue.js)",
-            "Created the planning Android application connected to the Rest API with Retrofit for non-admin users",
-            "Built a calendar application for the HR team to replace their spreadsheet used as an employee scheduling solution (C# / Vue.js)",
-            "Developed a web scraping program with Selenium to help a company to analyze the market (Java / Angular)",
+            this.$t('about.dawan.tasks1'),
+            this.$t('about.dawan.tasks2'),
+            this.$t('about.dawan.tasks3'),
+            this.$t('about.dawan.tasks4')
           ],
         },
         {

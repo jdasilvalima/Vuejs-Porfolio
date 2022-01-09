@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
@@ -29,7 +29,7 @@
         <img
           src="@/assets/figma.png"
           alt="figmalogo"
-          class="h-24 row-start-1"
+          class="h-16 row-start-1"
         />
         <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Figma</div>
       </div>
@@ -37,7 +37,7 @@
       <div
         class="col-start-4 md:col-start-5 col-span-3 md:col-span-2 grid grid-rows-auto justify-items-center"
       >
-        <img src="@/assets/vue.png" alt="figmalogo" class="h-24 row-start-1" />
+        <img src="@/assets/vue.png" alt="figmalogo" class="h-16 row-start-1" />
         <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Vue.js</div>
       </div>
 
@@ -47,7 +47,7 @@
         <img
           src="@/assets/tailwindcss.png"
           alt="figmalogo"
-          class="h-24 row-start-1"
+          class="h-16 row-start-1"
         />
         <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">
           Tailwind css
@@ -59,7 +59,7 @@
         <img
           src="@/assets/github.png"
           alt="figmalogo"
-          class="h-24 row-start-1"
+          class="h-16 row-start-1"
         />
         <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Github</div>
       </div>

@@ -1,33 +1,28 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Projects list
+        {{ $t("project.title") }}
       </div>
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-8 row-start-2"
       >
         <ul class="list-disc list-inside text-justify">
           <li class="mb-5">
-            Built <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningWebProject'}">a planning application</router-link> (Java / Vue.js) for a training center
-            to help both the Sales and the HR teams keep track of trainers’
-            schedules and the list of courses available for sales ;
+            {{ $t("project.planningWeb1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningWebProject'}"> {{ $t("project.planningWeb2") }} </router-link> {{ $t("project.planningWeb3") }}
           </li>
           <li class="mb-5">
-            Developed an <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningAndroidProject'}">Android application</router-link> (Java) of the planning for
-            non-admin users ;
+            {{ $t("project.planningAndroid1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'PlanningAndroidProject'}">{{ $t("project.planningAndroid2") }}</router-link> {{ $t("project.planningAndroid3") }}
           </li>
-          <li class="mb-5">Built a calendar application for the HR team (C# / Vue.js) ;</li>
+          <li class="mb-5">{{ $t("project.calendar") }}</li>
           <li class="mb-5">
-            Developed a web scraping program with Selenium to analyze the
-            competitive market (Java / Angular) ;
+            {{ $t("project.comparator") }}
           </li>
-          <li class="mb-5">Created a computerized <router-link class="text-teal-400 hover:underline" :to="{ name: 'QualityProject'}">quality management system</router-link> ;</li>
+          <li class="mb-5">{{ $t("project.quality1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'QualityProject'}">{{ $t("project.quality2") }}</router-link> ;</li>
           <li class="mb-5">
-            Coded <router-link class="text-teal-400 hover:underline" :to="{ name: 'PortfolioProject'}">a portfolio</router-link> (Vue.js) to explain how I am using my knowledge in
-            project & quality management with software development.
+            {{ $t("project.portfolio1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'PortfolioProject'}">{{ $t("project.portfolio2") }}</router-link> {{ $t("project.portfolio3") }}
           </li>
         </ul>
       </div>

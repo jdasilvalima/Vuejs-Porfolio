@@ -1,11 +1,11 @@
 <template>
-  <div class="about">
+  <div class="about h-full dark:bg-gray-800 xl:px-28">
     <Navbar
       :title="$t('nav.titleAbout')"
       :key="$i18n.locale"
       @darkLightChild="darkLightParent"
     />
-    <About :updateModeChild="updateMode" />
+    <About :updateModeChild="updateMode" :key="$i18n.locale"/>
   </div>
 </template>
 

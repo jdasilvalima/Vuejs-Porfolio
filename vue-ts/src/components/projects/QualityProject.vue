@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-800 md:pt-16 px-6 md:px-0 pb-20">
+  <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
@@ -91,14 +91,14 @@
           <p>Send automaticaly emais to suppliers</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center">. . . . . . . .</div>
+        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
 
         <div class="col-span-6 md:col-span-2 md:col-start-4 flex flex-col items-center">
           <img src="@/assets/folder.png" alt="folder image" class="w-24" />
           <p>Save files from suppliers in their folders</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center">. . . . . . . .</div>
+        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
 
         <div class="col-span-6 md:col-span-2 md:col-start-7 flex flex-col items-center">
           <img src="@/assets/teams.png" alt="teams image" class="w-24" />
