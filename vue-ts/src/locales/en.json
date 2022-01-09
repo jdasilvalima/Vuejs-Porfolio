@@ -17,5 +17,21 @@
     "subtitle2Text": "It happens frequently that teams are under pressure with an important amount of workload 🗃️. Softwares can automate some taks in order to save time, be more efficient and allocate time to more complex tasks. 🔎 I like to audit processes and search which IT tool I can implement to help teams in their daily tasks.",
     "subtitle3": "Decision helper",
     "subtitle3Text": "Nowadays, we receive thousands of data in a week 🔢. I like to get revelant information from this data to help teams to take decision with for instance KPI indicators. IA can be from a great tool also to assist to take decision 🤖."
+  },
+  "project": {
+    "title": "Projects list",
+    "planningWeb1": "Built",
+    "planningWeb2": "a planning application",
+    "planningWeb3": "(Java / Vue.js) for a training center to help both the Sales and the HR teams keep track of trainers’ schedules and the list of courses available for sales ;",
+    "planningAndroid1": "Developed an",
+    "planningAndroid2": "Android application",
+    "planningAndroid3": "(Java) of the planning for non-admin users ;",
+    "calendar": "Built a calendar application for the HR team (C# / Vue.js) ;",
+    "comparator": "Developed a web scraping program with Selenium to analyze the competitive market (Java / Angular) ;",
+    "quality1": "Created a computerized",
+    "quality2": "quality management system",
+    "portfolio1": "Coded",
+    "portfolio2": "a portfolio",
+    "portfolio3": "(Vue.js) to explain how I am using my knowledge in project & quality management with software development."
   }
 }

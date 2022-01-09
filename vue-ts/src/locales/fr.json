@@ -17,5 +17,21 @@
     "subtitle2Text": "Il arrive fréquemment que les équipes soient sous pression avec une charge de travail importante 🗃️. Les logiciels peuvent automatiser certaines tâches afin de gagner du temps, d'être plus efficaces et d'allouer du temps à des tâches plus complexes. 🔎 J'aime auditer les processus et rechercher quel outil informatique je peux mettre en place pour aider les équipes dans leurs tâches quotidiennes.",
     "subtitle3": "Aide à la décision",
     "subtitle3Text": "De nos jours, nous recevons des milliers de données en une semaine 🔢. J'aime obtenir des informations pertinentes à partir de ces données pour aider les équipes à prendre des décisions avec par exemple des indicateurs KPI. L'IA peut être un excellent outil aussi pour aider à prendre des décisions 🤖."
+  },
+  "project": {
+    "title": "Liste des projets",
+    "planningWeb1": "Construire",
+    "planningWeb2": "une application de planification",
+    "planningWeb3": "(Java / Vue.js) pour un centre de formation afin d'aider à la fois les équipes commerciales et les équipes RH à suivre les plannings des formateurs et la liste des formations disponibles à la vente ;",
+    "planningAndroid1": "Développé une",
+    "planningAndroid2": "application Android",
+    "planningAndroid3": "(Java) du planning pour les utilisateurs non-admin ;",
+    "calendar": "Créer d'une application de calendrier pour l'équipe RH (C# / Vue.js) ;",
+    "comparator": "Développer un programme de web scraping avec Selenium pour analyser le marché concurrentiel (Java / Angular) ;",
+    "quality1": "Créer un ",
+    "quality2": "système informatisé de gestion de la qualité",
+    "portfolio1": "Coder",
+    "portfolio2": "un portfolio",
+    "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité avec le développement de logiciels."
   }
 }
