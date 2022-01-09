@@ -18,6 +18,20 @@
     "subtitle3": "Decision helper",
     "subtitle3Text": "Nowadays, we receive thousands of data in a week 🔢. I like to get revelant information from this data to help teams to take decision with for instance KPI indicators. IA can be from a great tool also to assist to take decision 🤖."
   },
+  "about": {
+    "title1": "“Simple & Efficace”",
+    "title1Text": "Throughout my career as a quality manager for food companies, I have often wanted to be able to <span class='font-semibold'>code tools</span> that would allow me to automate and do better monitoring. Back from my four-year stay in the United States, I decided to take the plunge and obtain a <span class='font-semibold'>computer science degree</span>. <div class='mb-1'><br /></div> Today I am happy to be able to make the link between my knowledge in <span class='font-semibold'>quality management</span> and the one in <span class='font-semibold'>software development</span>. I am currently creating simple and efficient software to help teams in their daily tasks and to take decisions in the long term.",
+    "title2": "My double experience as a Quality Manager & a Software Developer",
+    "dawan": {
+      "title": "Software Developer",
+      "dates": "September 2020 – December 2021",
+      "company": "Dawan - Consulting & IT training center",
+      "tasks1": "Built a planning application, for a training center, to help both the Sales and the HR team to keep track of trainers’ schedules and the list of courses sold (Java / Vue.js)",
+      "tasks2": "Created the planning Android application connected to the Rest API with Retrofit for non-admin users",
+      "tasks3": "Built a calendar application for the HR team to replace their spreadsheet used as an employee scheduling solution (C# / Vue.js)",
+      "tasks4": "Developed a web scraping program with Selenium to help a company to analyze the market (Java / Angular)"
+    }
+  },
   "project": {
     "title": "Projects list",
     "planningWeb1": "Built",

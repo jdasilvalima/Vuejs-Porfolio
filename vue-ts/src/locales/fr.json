@@ -18,12 +18,26 @@
     "subtitle3": "Aide à la décision",
     "subtitle3Text": "De nos jours, nous recevons des milliers de données en une semaine 🔢. J'aime obtenir des informations pertinentes à partir de ces données pour aider les équipes à prendre des décisions avec par exemple des indicateurs KPI. L'IA peut être un excellent outil aussi pour aider à prendre des décisions 🤖."
   },
+  "about": {
+    "title1": "“Simple & Efficace”",
+    "title1Text": "Tout au long de ma carrière de responsable qualité pour des entreprises agroalimentaires, j'ai souvent souhaité pouvoir <span class='font-semibold'>coder des outils</span> qui me permettraient d'automatiser et de faire un meilleur suivi. De retour de mon séjour de quatre ans aux États-Unis, j'ai décidé de franchir le pas et d'obtenir un <span class='font-semibold'>diplôme en informatique</span>. <div class='mb-1'><br /></div> Aujourd'hui je suis heureux de pouvoir faire le lien entre mes connaissances en <span class='font-semibold'>gestion de la qualité</span> et celui du <span class='font-semibold'>développement logiciel</span>. Je crée actuellement des logiciels simples et efficaces pour aider les équipes dans leurs tâches quotidiennes et prendre des décisions sur le long terme.",
+    "title2": "Ma double expérience en tant que Responsable Qualité & Développeur Logiciel",
+    "dawan": {
+      "title": "Full StackDéveloppeur",
+      "dates": "Septembre 2020 – Décembre 2021",
+      "company": "Dawan - Centre de conseil et de formation informatique",
+      "tasks1": "Création d'une application de planification, pour un centre de formation, pour aider à la fois l'équipe commerciale et l'équipe RH à suivre les horaires des formateurs et la liste des cours vendus (Java / Vue.js)",
+      "tasks2": "Création de l'application Android de planification connectée à l'API Rest avec Retrofit pour les utilisateurs non administrateurs",
+      "tasks3": "Création d'une application de calendrier pour l'équipe RH afin de remplacer leur feuille de calcul utilisée comme solution de planification des employés (C# / Vue.js)",
+      "tasks4": "Développement d'un programme de web scraping avec Selenium pour aider une entreprise à analyser le marché (Java / Angular)"
+    }
+  },
   "project": {
     "title": "Liste des projets",
     "planningWeb1": "Construire",
     "planningWeb2": "une application de planification",
     "planningWeb3": "(Java / Vue.js) pour un centre de formation afin d'aider à la fois les équipes commerciales et les équipes RH à suivre les plannings des formateurs et la liste des formations disponibles à la vente ;",
-    "planningAndroid1": "Développé une",
+    "planningAndroid1": "Développer une",
     "planningAndroid2": "application Android",
     "planningAndroid3": "(Java) du planning pour les utilisateurs non-admin ;",
     "calendar": "Créer d'une application de calendrier pour l'équipe RH (C# / Vue.js) ;",

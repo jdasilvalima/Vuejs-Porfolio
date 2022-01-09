@@ -5,7 +5,7 @@
       :key="$i18n.locale"
       @darkLightChild="darkLightParent"
     />
-    <About :updateModeChild="updateMode" />
+    <About :updateModeChild="updateMode" :key="$i18n.locale"/>
   </div>
 </template>
 
