@@ -91,14 +91,14 @@
           <p>Send automaticaly emais to suppliers</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center">. . . . . . . .</div>
+        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
 
         <div class="col-span-6 md:col-span-2 md:col-start-4 flex flex-col items-center">
           <img src="@/assets/folder.png" alt="folder image" class="w-24" />
           <p>Save files from suppliers in their folders</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center">. . . . . . . .</div>
+        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
 
         <div class="col-span-6 md:col-span-2 md:col-start-7 flex flex-col items-center">
           <img src="@/assets/teams.png" alt="teams image" class="w-24" />

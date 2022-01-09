@@ -6,5 +6,16 @@
     "goal": "Objectifs",
     "projects": "Projets",
     "about": "A propos"
+  },
+  "goal": {
+    "title": "Concepteur / Développeur de logiciels & Chef de projet",
+    "purpose": "Mon but",
+    "purposeText": "Construire des logiciels pour aider les entreprises à automatiser leurs processus, faire un meilleur suivi et les aider à prendre des décisions à l'aide de leurs données 📊.",
+    "subtitle1": "Surveillance",
+    "subtitle1Text": "Il est important pour les entreprises d'être réactives dans ce monde moderne et rapide 🌍. La surveillance des processus et des indicateurs à l'aide d'un logiciel peut aider à détecter les problèmes avant qu'ils ne surviennent. En travaillant en tant que responsable qualité, j'ai pu voir comment l'automatisation peut aider à gagner du temps et de l'argent 🕖. C'est pourquoi en tant que développeur de logiciels, j'essaie de créer des tableaux de bord simples et efficaces pour le suivi.",
+    "subtitle2": "Automatiser",
+    "subtitle2Text": "Il arrive fréquemment que les équipes soient sous pression avec une charge de travail importante 🗃️. Les logiciels peuvent automatiser certaines tâches afin de gagner du temps, d'être plus efficaces et d'allouer du temps à des tâches plus complexes. 🔎 J'aime auditer les processus et rechercher quel outil informatique je peux mettre en place pour aider les équipes dans leurs tâches quotidiennes.",
+    "subtitle3": "Aide à la décision",
+    "subtitle3Text": "De nos jours, nous recevons des milliers de données en une semaine 🔢. J'aime obtenir des informations pertinentes à partir de ces données pour aider les équipes à prendre des décisions avec par exemple des indicateurs KPI. L'IA peut être un excellent outil aussi pour aider à prendre des décisions 🤖."
   }
 }
