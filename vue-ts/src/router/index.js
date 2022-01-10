@@ -59,7 +59,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/ProjectsView.vue')
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '/:catchAll(.*)',
     name: 'NotFound',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
