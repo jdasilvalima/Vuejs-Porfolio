@@ -31,7 +31,47 @@
       "tasks2": "Created the planning Android application connected to the Rest API with Retrofit for non-admin users",
       "tasks3": "Built a calendar application for the HR team to replace their spreadsheet used as an employee scheduling solution (C# / Vue.js)",
       "tasks4": "Developed a web scraping program with Selenium to help a company to analyze the market (Java / Angular)"
-    }
+    },
+    "cuisine": {
+      "title": "Quality Manager",
+      "dates": "August 2016 – June 2020",
+      "company": "Cuisine Solutions - Sous-Vide food company",
+      "location": "Alexandria - VA (the U.S.A)",
+      "tasks1": "Ensured BRC level AA, Organic, ABF, Halal and Gluten-Free certifications, FDA / USDA inspections and customer audits for the plant in Alexandria (Virginia). Traveled also to different factories (the United States and Thailand) to provide technical assistance to help them to prepare their audits",
+      "tasks2": "Managed a quality team with 13 persons (2 managers, 3 supervisors, and 8 technicians)",
+      "tasks3": "Worked with the R&D team to develop new products (from supplier approval to packaging creation)",
+      "tasks4": "Reported the performance of the quality system to senior management during quarterly reviews"
+    },
+    "florette": {
+      "title": "Quality Assistant Manager",
+      "dates": "August 2016 – June 2020",
+      "company": "Florette - Fresh food company",
+      "location": "Lessay (France)",
+      "tasks1": "Performed internal audits, prepared and participated in external audits (customer audits and IFS/BRC audit)",
+      "tasks2": "Trained and monitored 11 new quality controllers, managed their schedule, and followed up their projects",
+      "tasks3": "Collected data, followed and presented KPIs to the Management Team"
+    },
+    "neuhauser": {
+      "title": "Quality Assistant Manager",
+      "dates": "January 2015 – May 2015",
+      "company": "Neuhauser - Fresh & frozen bakery products",
+      "location": "Maubeuge (France)",
+      "tasks1": "Managed internal non-conformities and complaints to suppliers",
+      "tasks2": "Monitored and managed customer satisfaction: customer complaints, specifications, create and update final specifications",
+      "tasks3": "Helped to create new products (production and quality records to create, final specification and packaging)"
+    },
+    "title3": "Education along the way",
+    "dawanSchool": {
+      "title": "Computer Science degree - Apprenticeship program",
+      "dates": "September 2020 - December 2021",
+      "coursework": "<span class='font-bold'>Relevant Coursework : </span> Object-oriented programming, design patterns, software development, mobile development, database and information systems, test-driven development, agile software projects"
+    },
+    "bsaSchool": {
+      "title": "Master of Agriculture and Food Sciences",
+      "dates": "September 2011 – September 2014",
+      "coursework": "<span class='font-bold'>Relevant Coursework : </span> Quality, Integrated Management and Sustainable Development, QSE Management tools for engineers in food value chains, Business Economics"
+    },
+    "title4": "Contact me through LinkedIn"
   },
   "project": {
     "title": "Projects list",

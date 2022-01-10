@@ -31,7 +31,47 @@
       "tasks2": "Création de l'application Android de planification connectée à l'API Rest avec Retrofit pour les utilisateurs non administrateurs",
       "tasks3": "Création d'une application de calendrier pour l'équipe RH afin de remplacer leur feuille de calcul utilisée comme solution de planification des employés (C# / Vue.js)",
       "tasks4": "Développement d'un programme de web scraping avec Selenium pour aider une entreprise à analyser le marché (Java / Angular)"
-    }
+    },
+    "cuisine": {
+      "title": "Responsable qualité",
+      "dates": "Août 2016 – Juin 2020",
+      "company": "Cuisine Solutions - Sous-Vide food company",
+      "location": "Alexandria - Virginia (U.S)",
+      "tasks1": "Certifications BRC niveau AA, Biologique, ABF, Halal et Sans Gluten, inspections FDA/USDA et audits clients pour l'usine d'Alexandrie (Virginie). Déplacement également dans différentes usines (États-Unis et Thaïlande) pour apporter une assistance technique afin de les aider à préparer leurs audits",
+      "tasks2": "Managed a quality team with 13 persons (2 managers, 3 supervisors, and 8 technicians)",
+      "tasks3": "Management d'une équipe qualité de 13 personnes (2 managers, 3 superviseurs et 8 techniciens)",
+      "tasks4": "Rendre compte de la performance du système qualité à la haute direction lors des revues trimestrielles"
+    },
+    "florette": {
+      "title": "Assistante Responsable Qualité",
+      "dates": "Août 2016 – Juin 2020",
+      "company": "Florette - Entreprise de produits frais",
+      "location": "Lessay (France)",
+      "tasks1": "Réalisation d'audits internes, préparation et participation à des audits externes (audits clients et audit IFS/BRC)",
+      "tasks2": "Formation et suivi de 11 nouveaux contrôleurs qualité, gestion de leur planning et suivi de leurs projets",
+      "tasks3": "Collecte des données, suivi et présentation des KPI à l'équipe de direction"
+    },
+    "neuhauser": {
+      "title": "Assistante Responsable Qualité",
+      "dates": "Janvier 2015 – Mai 2015",
+      "company": "Neuhauser - Produits de boulangerie frais et surgelés",
+      "location": "Maubeuge (France)",
+      "tasks1": "Gestion des non-conformités internes et des réclamations aux fournisseurs",
+      "tasks2": "Suivi et gestion de la satisfaction client : réclamations clients, cahier des charges, création et mise à jour du cahier des charges final",
+      "tasks3": "Aide à la création de nouveaux produits (enregistrements de production et de qualité à créer, spécification finale et emballage)"
+    },
+    "title3": "Parcours scolaire",
+    "dawanSchool": {
+      "title": "Titre professionnel - Programme d'apprentissage",
+      "dates": "Septembre 2020 - Décembre 2021",
+      "coursework": "<span class='font-bold'>Cours pertinents : </span> Programmation orientée objet, modèles de conception, développement logiciel, développement mobile, bases de données et systèmes d'information, développement piloté par les tests, projets logiciels agiles"
+    },
+    "bsaSchool": {
+      "title": "Ingénieur agronome",
+      "dates": "Septembre 2011 – Septembre 2014",
+      "coursework": "<span class='font-bold'>Cours pertinents : </span> Qualité, Management Intégré et Développement Durable, Outils de management QSE pour les ingénieurs des filières alimentaires, Economie d'entreprise"
+    },
+    "title4": "Contactez-moi via LinkedIn"
   },
   "project": {
     "title": "Liste des projets",
