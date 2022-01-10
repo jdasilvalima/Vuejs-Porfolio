@@ -184,7 +184,7 @@ export default {
           title: this.$t('about.dawan.title'),
           dates: this.$t('about.dawan.dates'),
           company: this.$t('about.dawan.company'),
-          location: "Paris (France)",
+          location: this.$t('about.dawan.location'),
           tasks: [
             this.$t('about.dawan.tasks1'),
             this.$t('about.dawan.tasks2'),

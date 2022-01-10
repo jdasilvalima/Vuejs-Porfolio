@@ -26,6 +26,7 @@
       "title": "Full StackDéveloppeur",
       "dates": "Septembre 2020 – Décembre 2021",
       "company": "Dawan - Centre de conseil et de formation informatique",
+      "location": "Paris (France)",
       "tasks1": "Création d'une application de planification, pour un centre de formation, pour aider à la fois l'équipe commerciale et l'équipe RH à suivre les horaires des formateurs et la liste des cours vendus (Java / Vue.js)",
       "tasks2": "Création de l'application Android de planification connectée à l'API Rest avec Retrofit pour les utilisateurs non administrateurs",
       "tasks3": "Création d'une application de calendrier pour l'équipe RH afin de remplacer leur feuille de calcul utilisée comme solution de planification des employés (C# / Vue.js)",

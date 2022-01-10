@@ -26,6 +26,7 @@
       "title": "Software Developer",
       "dates": "September 2020 – December 2021",
       "company": "Dawan - Consulting & IT training center",
+      "location": "Paris (France)",
       "tasks1": "Built a planning application, for a training center, to help both the Sales and the HR team to keep track of trainers’ schedules and the list of courses sold (Java / Vue.js)",
       "tasks2": "Created the planning Android application connected to the Rest API with Retrofit for non-admin users",
       "tasks3": "Built a calendar application for the HR team to replace their spreadsheet used as an employee scheduling solution (C# / Vue.js)",
