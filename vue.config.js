@@ -1,9 +1,7 @@
 module.exports = {
+  publicPath: '/porfolio/',
   pluginOptions: {
     i18n: {
-      publicPath: process.env.NODE_ENV === 'production'
-    ? '/porfolio/'
-    : '/',
       locale: 'en',
       fallbackLocale: 'en',
       localeDir: 'locales',
