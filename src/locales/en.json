@@ -94,5 +94,21 @@
     "subtitle1": "Design",
     "subtitle2": "Technologies used",
     "subtitle3": "You can find the code on Github"
+  },
+  "quality": {
+    "title": "Project - Quality management system design",
+    "subtitle1": "❔ The Issue",
+    "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
+    "subtitle2": "🎯 The Goals",
+    "subtitle2Monitoring": "<span class='font-semibold'>Monitoring :</span> Dashboard, alert NC not claused or when recurrence of a NC",
+    "subtitle2Automate": "<span class='font-semibold'>Automate :</span> send email, organize documents received from suppliers, use API from suppliers like laboratory.",
+    "subtitle2Decision": "<span class='font-semibold'>Decision helper :</span> Quarterly review, KPI indicators, follow up on audit preparation, IA to follow some sensitive processes",
+    "subtitle3": "✔️ Solutions",
+    "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> Dashboard for QA team, notify managers immediately when there is a quality issue, different pages : suppliers, food fraud, trainings, etc.",
+    "subtitle3Automate": "<span class='font-semibold'>Automate :</span> send email, organize documents received from suppliers, use API from suppliers like laboratory.",
+    "supplierEmail": "Send automatically emails to suppliers",
+    "supplierFile": "Save files from suppliers in their folders",
+    "notification": "Notify QA team to review new documents",
+    "subtitle3Decision": "<span class='font-semibold'>Decision helper :</span> Quarterly review, KPI indicators, follow up on audit preparation, IA to follow some sensitive processes."
   }
 }

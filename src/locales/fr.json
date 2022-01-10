@@ -94,5 +94,21 @@
     "subtitle1": "Conception",
     "subtitle2": "Technologies utilisées",
     "subtitle3": "Vous trouverez le code sur Github"
+  },
+  "quality": {
+    "title": "Projet - Conception du système de management de la qualité",
+    "subtitle1": "❔ Le Problème",
+    "subtitle1Text": "Comment aider les équipes qualité dans leurs tâches quotidiennes tout en préparant les audits en cours d'année ?",
+    "subtitle2": "🎯 Les Objectifs",
+    "subtitle2Monitoring": "<span class='font-semibold'>Surveillance :</span> Tableau de bord, alerte NC non claquée ou en cas de récurrence d'une NC",
+    "subtitle2Automate": "<span class='font-semibold'>Automatiser :</span> envoyer des e-mails, organiser les documents reçus des fournisseurs, utiliser les API des fournisseurs comme le laboratoire.",
+    "subtitle2Decision": "<span class='font-semibold'>Aide à la décision :</span> Revue trimestrielle, indicateurs KPI, suivi de la préparation des audits, IA pour suivre certains processus sensibles",
+    "subtitle3": "✔️ Solutions",
+    "subtitle3Monitoring": "<span class='font-semibold'>Suivi :</span> Tableau de bord pour l'équipe QA, avertir immédiatement les managers en cas de problème de qualité, différentes pages : fournisseurs, fraude alimentaire, formations, etc.",
+    "subtitle3Automate": "<span class='font-semibold'>Automatiser :</span> envoyer des e-mails, organiser les documents reçus des fournisseurs, utiliser les API des fournisseurs comme le laboratoire.",
+    "supplierEmail": "Envoyer automatiquement des e-mails aux fournisseurs",
+    "supplierFile": "Enregistrer les fichiers des fournisseurs dans leurs dossiers",
+    "notification": "Notifier l'équipe d'assurance qualité pour qu'elle examine les nouveaux documents",
+    "subtitle3Decision": "<span class='font-semibold'>Aide à la décision :</span> Revue trimestrielle, indicateurs KPI, suivi de la préparation des audits, IA pour suivre certains processus sensibles."
   }
 }
