@@ -139,5 +139,33 @@
     "positivetext3": "En apprendre plus sur les tests",
     "improvement": "🤔 Ce que j'aimerais faire mieux la prochaine fois",
     "improvementText1": "Pourrait respecter une meilleure méthode Agile"
+  },
+  "planning-android": {
+    "title": "Projet - Application de planification Android (Java)",
+    "subtitle1": "Analyse",
+    "subtitle1Text1": "Connaître les exigences des clients",
+    "subtitle1Text2": "Rédaction du dossier de spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",
+    "subtitle1Text3": "Création d'un lean canvas",
+    "subtitle2": "Conception",
+    "subtitle2Text1": "L'outil de wireframing, Figma, a été utilisé pour créer la maquette",
+    "subtitle2Text2": "L'accessibilité et la sécurité ont été prises en compte lors de la conception",
+    "subtitle2Text3": "J'ai créé un tableau des tâches Kanban avec toutes les histoires d'utilisateurs dans Notion",
+    "subtitle3": "Code",
+    "subtitle4": "Tests",
+    "subtitle4Text1": "<span class='font-semibold'>Tests structurels :</span> JUnit 5 (Jacoco pour la couverture de code)",
+    "subtitle4Text2": "<span class='font-semibold'>Tests de performances :</span> JMeter",
+    "subtitle4Text3": "<span class='font-semibold'>Tests de sécurité :</span> Guide OWASP & OWASP ZAP",
+    "subtitle4Text4": "<span class='font-semibold'>Test de qualité </span> SonarQube",
+    "subtitle4Text5": "<span class='font-semibold'>Tests utilisateur :</span> feuilles de calcul pour les administrateurs et les non-administrateurs",
+    "subtitle5": "Mise en œuvre",
+    "subtitle5Text1": "CI/CD avec GitLab",
+    "subtitle5Text2": "Création d'un lien pour télécharger l'APK",
+    "subtitle5Text3": "Création d'un guide d'utilisation",
+    "positive": "😀 Ce que j'ai aimé avec ce projet",
+    "positivetext1": "Création d'une application Android à partir de zéro",
+    "positivetext2": "Avoir des retours positifs des utilisateurs",
+    "positivetext3": "Améliorer les performances d'une application",
+    "improvement": "🤔 Ce que j'aimerais faire mieux la prochaine fois",
+    "improvementText1": "Pourrait respecter une meilleure méthode Agile"
   }
 }
