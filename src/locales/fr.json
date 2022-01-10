@@ -88,5 +88,11 @@
     "portfolio1": "Coder",
     "portfolio2": "un portfolio",
     "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité avec le développement de logiciels."
+  },
+  "portfolio": {
+    "title": "Projet - Portfolio personnel",
+    "subtitle1": "Conception",
+    "subtitle2": "Technologies utilisées",
+    "subtitle3": "Vous trouverez le code sur Github"
   }
 }

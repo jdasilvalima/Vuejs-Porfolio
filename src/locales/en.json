@@ -88,5 +88,11 @@
     "portfolio1": "Coded",
     "portfolio2": "a portfolio",
     "portfolio3": "(Vue.js) to explain how I am using my knowledge in project & quality management with software development."
+  },
+  "portfolio": {
+    "title": "Project - Personal Portfolio",
+    "subtitle1": "Design",
+    "subtitle2": "Technologies used",
+    "subtitle3": "You can find the code on Github"
   }
 }
