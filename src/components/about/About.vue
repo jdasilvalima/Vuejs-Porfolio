@@ -70,7 +70,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-10"
       >
-        Education along the way
+        {{ $t("about.title3") }}
       </div>
 
       <div
@@ -83,10 +83,10 @@
         class="text-left md:col-start-4 col-span-7 grid grid-cols-1 md:grid-cols-2"
       >
         <div class="font-semibold text-teal-700 dark:text-teal-500">
-          Computer Science degree - Apprenticeship program
+          {{ $t("about.dawanSchool.title") }}
         </div>
         <div class="text-gray-800 dark:text-teal-50 italic">
-          September 2020 - December 2021
+          {{ $t("about.dawanSchool.dates") }}
         </div>
         <div class="font-medium text-teal-600 dark:text-teal-100">Dawan</div>
         <div class="text-gray-800 dark:text-teal-50">Paris (France)</div>
@@ -94,11 +94,8 @@
 
       <div
         class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-4 col-span-7"
+        v-html="$t('about.dawanSchool.coursework')"
       >
-        <span class="font-bold">Relevant Coursework : </span> Object-oriented
-        programming, design patterns, software development, mobile development,
-        database and information systems, test-driven development, agile
-        software projects
       </div>
 
       <div
@@ -111,10 +108,10 @@
         class="text-left md:col-start-4 col-span-7 grid grid-cols-1 md:grid-cols-2"
       >
         <div class="font-semibold text-teal-700 dark:text-teal-500">
-          Master of Agriculture and Food Sciences
+          {{ $t("about.bsaSchool.title") }}
         </div>
         <div class="text-gray-800 dark:text-teal-50 italic">
-          September 2011 – September 2014
+          {{ $t("about.bsaSchool.dates") }}
         </div>
         <div class="font-medium text-teal-600 dark:text-teal-100">
           Bordeaux Sciences Agro
@@ -124,10 +121,8 @@
 
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-4 col-span-7"
+        v-html="$t('about.bsaSchool.coursework')"
       >
-        <span class="font-bold">Relevant Coursework : </span> Quality,
-        Integrated Management and Sustainable Development, QSE Management tools
-        for engineers in food value chains, Business Economics
       </div>
       <!-- End education -->
 
@@ -141,7 +136,7 @@
       <div
         class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left inline md:col-start-3 col-span-6 md:col-span-8"
       >
-        Contact me through LinkedIn
+        {{ $t("about.title4") }}
         <span>
           <a
             href="https://www.linkedin.com/in/jade-da-silva-lima/"
@@ -194,39 +189,39 @@ export default {
         },
         {
           id: 2,
-          title: "Quality Manager",
-          dates: "August 2016 – June 2020",
-          company: "Cuisine Solutions - Sous-Vide food company",
-          location: "Alexandria - VA (the U.S.A)",
+          title: this.$t('about.cuisine.title'),
+          dates: this.$t('about.cuisine.dates'),
+          company: this.$t('about.cuisine.company'),
+          location: this.$t('about.cuisine.location'),
           tasks: [
-            "Ensured BRC level AA, Organic, ABF, Halal and Gluten-Free certifications, FDA / USDA inspections and customer audits for the plant in Alexandria (Virginia). Traveled also to different factories (the United States and Thailand) to provide technical assistance to help them to prepare their audits",
-            "Managed a quality team with 13 persons (2 managers, 3 supervisors, and 8 technicians)",
-            "Worked with the R&D team to develop new products (from supplier approval to packaging creation)",
-            "Reported the performance of the quality system to senior management during quarterly reviews",
+            this.$t('about.cuisine.tasks1'),
+            this.$t('about.cuisine.tasks2'),
+            this.$t('about.cuisine.tasks3'),
+            this.$t('about.cuisine.tasks4')
           ],
         },
         {
           id: 3,
-          title: "Quality Assistant Manager",
-          dates: "August 2016 – June 2020",
-          company: "Florette - Fresh food company",
-          location: "Lessay (France)",
+          title: this.$t('about.florette.title'),
+          dates: this.$t('about.florette.dates'),
+          company: this.$t('about.florette.company'),
+          location: this.$t('about.florette.location'),
           tasks: [
-            "Performed internal audits, prepared and participated in external audits (customer audits and IFS/BRC audit)",
-            "Trained and monitored 11 new quality controllers, managed their schedule, and followed up their projects",
-            "Collected data, followed and presented KPIs to the Management Team",
+            this.$t('about.florette.tasks1'),
+            this.$t('about.florette.tasks2'),
+            this.$t('about.florette.tasks3'),
           ],
         },
         {
           id: 4,
-          title: "Quality Assistant Manager",
-          dates: "January 2015 – May 2015",
-          company: "Neuhauser - Fresh & frozen bakery products",
-          location: "Maubeuge (France)",
+          title: this.$t('about.neuhauser.title'),
+          dates: this.$t('about.neuhauser.dates'),
+          company: this.$t('about.neuhauser.company'),
+          location: this.$t('about.neuhauser.location'),
           tasks: [
-            "Managed internal non-conformities and complaints to suppliers",
-            "Monitored and managed customer satisfaction: customer complaints, specifications, create and update final specifications",
-            "Helped to create new products (production and quality records to create, final specification and packaging)",
+            this.$t('about.neuhauser.tasks1'),
+            this.$t('about.neuhauser.tasks2'),
+            this.$t('about.neuhauser.tasks3'),
           ],
         },
       ],

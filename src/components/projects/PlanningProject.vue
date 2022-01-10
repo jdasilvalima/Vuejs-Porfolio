@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Project - Planning Web Application (Java / Vue.js)
+        {{ $t("planning-web.title") }}
       </div>
 
       <!-- Start Analysis -->
@@ -19,7 +19,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Analysis
+          {{ $t("planning-web.subtitle1") }}
         </div>
       </div>
 
@@ -56,7 +56,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Design
+          {{ $t("planning-web.subtitle2") }}
         </div>
       </div>
 
@@ -95,7 +95,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Coding
+          {{ $t("planning-web.subtitle3") }}
         </div>
       </div>
 
@@ -148,7 +148,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Testing
+          {{ $t("planning-web.subtitle4") }}
         </div>
       </div>
 
@@ -159,27 +159,17 @@
           class="text-gray-800 dark:text-teal-50 text-left md:order-last"
         >
           <ul class="list-disc list-inside">
-            <li class="mb-3">
-              <span class="font-semibold">Structural tests :</span> Jest & JUnit
-              5 (Jacoco for code coverage)
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text1')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Functional tests :</span> Nightwatch
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text2')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Performance tests :</span> JMeter &
-              Lighthouse
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text3')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Security testing :</span> OWASP Guide
-              & OWASP ZAP
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text4')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Quality testing :</span> SonarQube
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text5')">
             </li>
-            <li>
-              <span class="font-semibold">User testing :</span> Spreadsheets for
-              Admin & Non-Admin
+            <li v-html="$t('planning-web.subtitle4Text6')">
             </li>
           </ul>
         </div>
@@ -269,7 +259,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Implementation
+          {{ $t("planning-web.subtitle5") }}
         </div>
       </div>
 
@@ -277,9 +267,9 @@
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
         <ul class="list-disc list-inside">
-          <li class="mb-3">CI / CD with GitLab</li>
+          <li class="mb-3">{{ $t("planning-web.subtitle5Text1") }}</li>
           <li class="mb-3">
-            Deployed in production with with Harbore & Rundeck
+            {{ $t("planning-web.subtitle5Text2") }}
           </li>
         </ul>
       </div>
@@ -306,7 +296,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 col-span-6 md:col-span-4"
         >
-          😀 What I enjoyed with this project
+          {{ $t("planning-web.positive") }}
         </div>
 
         <div
@@ -324,7 +314,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-8 md:col-span-4 md:row-start-1"
         >
-          🤔 What I would like to do better next time
+          {{ $t("planning-web.improvement") }}
         </div>
 
         <div
@@ -351,22 +341,22 @@ export default {
     return {
       darkLightDots: null,
       analysis: [
-        "Learned about customers' requirements",
-        "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
-        "Created a lean canvas",
+        this.$t('planning-web.subtitle1Text1'),
+        this.$t('planning-web.subtitle1Text2'),
+        this.$t('planning-web.subtitle1Text3'),
       ],
       design: [
-        "The wireframing tool, Uxpin, was used to create the mock-up",
-        "The sequence of screens of the website to build was done using draw.io",
-        "Accessibility and security were taking in consideration while doing the design",
-        "I created a Kanban task board with all the users stories in Notion",
+        this.$t('planning-web.subtitle2Text1'),
+        this.$t('planning-web.subtitle2Text2'),
+        this.$t('planning-web.subtitle2Text3'),
+        this.$t('planning-web.subtitle2Text4'),
       ],
       positive: [
-        "Created the web application from scratch",
-        "Learn new technologies and tools (WebSocket, Vuex store, Vue i18n , etc.)",
-        "Learn more about tests",
+        this.$t('planning-web.positivetext1'),
+        this.$t('planning-web.positivetext2'),
+        this.$t('planning-web.positivetext3'),
       ],
-      improvement: ["Could respect better Agile method"],
+      improvement: [this.$t('planning-web.improvementText1')],
     };
   },
   watch: {

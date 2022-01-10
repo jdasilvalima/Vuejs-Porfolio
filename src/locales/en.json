@@ -31,7 +31,47 @@
       "tasks2": "Created the planning Android application connected to the Rest API with Retrofit for non-admin users",
       "tasks3": "Built a calendar application for the HR team to replace their spreadsheet used as an employee scheduling solution (C# / Vue.js)",
       "tasks4": "Developed a web scraping program with Selenium to help a company to analyze the market (Java / Angular)"
-    }
+    },
+    "cuisine": {
+      "title": "Quality Manager",
+      "dates": "August 2016 – June 2020",
+      "company": "Cuisine Solutions - Sous-Vide food company",
+      "location": "Alexandria - VA (the U.S.A)",
+      "tasks1": "Ensured BRC level AA, Organic, ABF, Halal and Gluten-Free certifications, FDA / USDA inspections and customer audits for the plant in Alexandria (Virginia). Traveled also to different factories (the United States and Thailand) to provide technical assistance to help them to prepare their audits",
+      "tasks2": "Managed a quality team with 13 persons (2 managers, 3 supervisors, and 8 technicians)",
+      "tasks3": "Worked with the R&D team to develop new products (from supplier approval to packaging creation)",
+      "tasks4": "Reported the performance of the quality system to senior management during quarterly reviews"
+    },
+    "florette": {
+      "title": "Quality Assistant Manager",
+      "dates": "August 2016 – June 2020",
+      "company": "Florette - Fresh food company",
+      "location": "Lessay (France)",
+      "tasks1": "Performed internal audits, prepared and participated in external audits (customer audits and IFS/BRC audit)",
+      "tasks2": "Trained and monitored 11 new quality controllers, managed their schedule, and followed up their projects",
+      "tasks3": "Collected data, followed and presented KPIs to the Management Team"
+    },
+    "neuhauser": {
+      "title": "Quality Assistant Manager",
+      "dates": "January 2015 – May 2015",
+      "company": "Neuhauser - Fresh & frozen bakery products",
+      "location": "Maubeuge (France)",
+      "tasks1": "Managed internal non-conformities and complaints to suppliers",
+      "tasks2": "Monitored and managed customer satisfaction: customer complaints, specifications, create and update final specifications",
+      "tasks3": "Helped to create new products (production and quality records to create, final specification and packaging)"
+    },
+    "title3": "Education along the way",
+    "dawanSchool": {
+      "title": "Computer Science degree - Apprenticeship program",
+      "dates": "September 2020 - December 2021",
+      "coursework": "<span class='font-bold'>Relevant Coursework : </span> Object-oriented programming, design patterns, software development, mobile development, database and information systems, test-driven development, agile software projects"
+    },
+    "bsaSchool": {
+      "title": "Master of Agriculture and Food Sciences",
+      "dates": "September 2011 – September 2014",
+      "coursework": "<span class='font-bold'>Relevant Coursework : </span> Quality, Integrated Management and Sustainable Development, QSE Management tools for engineers in food value chains, Business Economics"
+    },
+    "title4": "Contact me through LinkedIn"
   },
   "project": {
     "title": "Projects list",
@@ -48,5 +88,84 @@
     "portfolio1": "Coded",
     "portfolio2": "a portfolio",
     "portfolio3": "(Vue.js) to explain how I am using my knowledge in project & quality management with software development."
+  },
+  "portfolio": {
+    "title": "Project - Personal Portfolio",
+    "subtitle1": "Design",
+    "subtitle2": "Technologies used",
+    "subtitle3": "You can find the code on Github"
+  },
+  "quality": {
+    "title": "Project - Quality management system design",
+    "subtitle1": "❔ The Issue",
+    "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
+    "subtitle2": "🎯 The Goals",
+    "subtitle2Monitoring": "<span class='font-semibold'>Monitoring :</span> Dashboard, alert NC not claused or when recurrence of a NC",
+    "subtitle2Automate": "<span class='font-semibold'>Automate :</span> send email, organize documents received from suppliers, use API from suppliers like laboratory.",
+    "subtitle2Decision": "<span class='font-semibold'>Decision helper :</span> Quarterly review, KPI indicators, follow up on audit preparation, IA to follow some sensitive processes",
+    "subtitle3": "✔️ Solutions",
+    "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> Dashboard for QA team, notify managers immediately when there is a quality issue, different pages : suppliers, food fraud, trainings, etc.",
+    "subtitle3Automate": "<span class='font-semibold'>Automate :</span> send email, organize documents received from suppliers, use API from suppliers like laboratory.",
+    "supplierEmail": "Send automatically emails to suppliers",
+    "supplierFile": "Save files from suppliers in their folders",
+    "notification": "Notify QA team to review new documents",
+    "subtitle3Decision": "<span class='font-semibold'>Decision helper :</span> Quarterly review, KPI indicators, follow up on audit preparation, IA to follow some sensitive processes."
+  },
+  "planning-web": {
+    "title": "Project - Planning Web Application (Java / Vue.js)",
+    "subtitle1": "Analysis",
+    "subtitle1Text1": "Learned about customers' requirements",
+    "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
+    "subtitle1Text3": "Created a lean canvas",
+    "subtitle2": "Design",
+    "subtitle2Text1": "The wireframing tool, Uxpin, was used to create the mock-up",
+    "subtitle2Text2": "The sequence of screens of the website to build was done using draw.io",
+    "subtitle2Text3": "Accessibility and security were taken into consideration while doing the design",
+    "subtitle2Text4": "I created a Kanban task board with all the users stories in Notion",
+    "subtitle3": "Coding",
+    "subtitle4": "Testing",
+    "subtitle4Text1": "<span class='font-semibold'>Structural tests :</span> Jest & JUnit 5 (Jacoco for code coverage)",
+    "subtitle4Text2": "<span class='font-semibold'>Functional tests :</span> Nightwatch",
+    "subtitle4Text3": "<span class='font-semibold'>Performance tests :</span> JMeter & Lighthouse",
+    "subtitle4Text4": "<span class='font-semibold'>Security testing :</span> OWASP Guide & OWASP ZAP",
+    "subtitle4Text5": " <span class='font-semibold'>Quality testing :</span> SonarQube",
+    "subtitle4Text6": "<span class='font-semibold'>User testing :</span> Spreadsheets for Admin & Non-Admin",
+    "subtitle5": "Implementation",
+    "subtitle5Text1": "CI / CD with GitLab",
+    "subtitle5Text2": "Deployed in production with Harbore & Rundeck",
+    "positive": "😀 What I enjoyed with this project",
+    "positivetext1": "Created the web application from scratch",
+    "positivetext2": "Learn new technologies and tools (WebSocket, Vuex store, Vue i18n , etc.)",
+    "positivetext3": "Learn more about tests",
+    "improvement": "🤔 What I would like to do better next time",
+    "improvementText1": "Mieux respecter la méthode TDD tout au long du projet"
+  },
+  "planning-android": {
+    "title": "Project - Android planning application (Java)",
+    "subtitle1": "Analysis",
+    "subtitle1Text1": "Learned about customers' requirements",
+    "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
+    "subtitle1Text3": "Created a lean canvas",
+    "subtitle2": "Design",
+    "subtitle2Text1": "The wireframing tool, Figma, was used to create the mock-up",
+    "subtitle2Text2": "Accessibility and security were taken into consideration while doing the design",
+    "subtitle2Text3": "I created a Kanban task board with all the users stories in Notion",
+    "subtitle3": "Coding",
+    "subtitle4": "Testing",
+    "subtitle4Text1": "<span class='font-semibold'>Structural tests :</span> JUnit 5 (Jacoco for code coverage)",
+    "subtitle4Text2": "<span class='font-semibold'>Performance tests :</span> JMeter",
+    "subtitle4Text3": "<span class='font-semibold'>Security testing :</span> OWASP Guide & OWASP ZAP",
+    "subtitle4Text4": "<span class='font-semibold'>Quality testing </span> SonarQube",
+    "subtitle4Text5": "<span class='font-semibold'>User testing :</span> Spreadsheets for Admin & Non-Admin",
+    "subtitle5": "Implementation",
+    "subtitle5Text1": "CI / CD with GitLab",
+    "subtitle5Text2": "Created a link to download the APK",
+    "subtitle5Text3": "Created a user guide",
+    "positive": "😀 What I enjoyed with this project",
+    "positivetext1": "Created an Android application from scratch",
+    "positivetext2": "Have positive feedbacks from users",
+    "positivetext3": "Improve an application performance",
+    "improvement": "🤔 What I would like to do better next time",
+    "improvementText1": "Could respect better Agile method"
   }
 }

@@ -4,13 +4,13 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Project - Personal Portfolio
+        {{ $t("portfolio.title") }}
       </div>
 
       <div
         class="text-teal-700 dark:text-teal-400 font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
-        Design
+        {{ $t("portfolio.subtitle1") }}
       </div>
 
       <div class="md:col-start-3 col-span-6 md:col-span-8">
@@ -20,7 +20,7 @@
       <div
         class="text-teal-700 dark:text-teal-400 font-semibold text-left mt-10 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Technologies used
+        {{ $t("portfolio.subtitle2") }}
       </div>
 
       <div
@@ -73,7 +73,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-left mb-10 md:col-start-3 col-span-6 md:col-span-8"
       >
-        You can find the code on Github
+        {{ $t("portfolio.subtitle3") }}
         <a
           href="https://github.com/jdasilvalima/Vuejs-Porfolio/tree/master/vue-ts"
           target="_blank"

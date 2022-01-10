@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Project - Android planning application (Java)
+        {{ $t("planning-android.title") }}
       </div>
 
       <!-- Start Analysis -->
@@ -19,7 +19,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Analysis
+          {{ $t("planning-android.subtitle1") }}
         </div>
       </div>
 
@@ -56,7 +56,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Design
+          {{ $t("planning-android.subtitle2") }}
         </div>
       </div>
 
@@ -95,7 +95,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Coding
+          {{ $t("planning-android.subtitle3") }}
         </div>
       </div>
 
@@ -147,7 +147,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Testing
+          {{ $t("planning-android.subtitle4") }}
         </div>
       </div>
 
@@ -156,23 +156,15 @@
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
           <ul class="list-disc list-inside">
-            <li class="mb-3">
-              <span class="font-semibold">Structural tests :</span> JUnit
-              5 (Jacoco for code coverage)
+            <li class="mb-3" v-html="$t('planning-android.subtitle4Text1')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Performance tests :</span> JMeter
+            <li class="mb-3" v-html="$t('planning-android.subtitle4Text2')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Security testing :</span> OWASP Guide
-              & OWASP ZAP
+            <li class="mb-3" v-html="$t('planning-android.subtitle4Text3')">
             </li>
-            <li class="mb-3">
-              <span class="font-semibold">Quality testing :</span> SonarQube
+            <li class="mb-3" v-html="$t('planning-android.subtitle4Text4')">
             </li>
-            <li>
-              <span class="font-semibold">User testing :</span> Spreadsheets for
-              Admin & Non-Admin
+            <li v-html="$t('planning-android.subtitle4Text5')">
             </li>
           </ul>
         </div>
@@ -233,7 +225,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Implementation
+          {{ $t("planning-android.subtitle5") }}
         </div>
       </div>
 
@@ -241,10 +233,10 @@
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
         <ul class="list-disc list-inside">
-          <li class="mb-3">CI / CD with GitLab</li>
-          <li class="mb-3">Created a link to download the APK</li>
+          <li class="mb-3">{{ $t("planning-android.subtitle5Text1") }}</li>
+          <li class="mb-3">{{ $t("planning-android.subtitle5Text2") }}</li>
           <li class="mb-3">
-            Created a user guide
+            {{ $t("planning-android.subtitle5Text3") }}
           </li>
         </ul>
       </div>
@@ -271,7 +263,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 col-span-6 md:col-span-4"
         >
-          😀 What I enjoyed with this project
+          {{ $t("planning-android.positive") }}
         </div>
 
         <div
@@ -289,7 +281,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-8 md:col-span-4 md:row-start-1"
         >
-          🤔 What I would like to do better next time
+          {{ $t("planning-android.improvement") }}
         </div>
 
         <div
@@ -316,21 +308,21 @@ export default {
     return {
       darkLightDots: null,
       analysis: [
-        "Learned about customers' requirements",
-        "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
-        "Created a lean canvas",
+        this.$t('planning-android.subtitle1Text1'),
+        this.$t('planning-android.subtitle1Text2'),
+        this.$t('planning-android.subtitle1Text3'),
       ],
       design: [
-        "The wireframing tool, Figma, was used to create the mock-up.",
-        "Accessibility and security were taking in consideration while doing the design",
-        "I created a Kanban task board with all the users stories in Notion",
+        this.$t('planning-android.subtitle2Text1'),
+        this.$t('planning-android.subtitle2Text2'),
+        this.$t('planning-android.subtitle2Text3'),
       ],
       positive: [
-        "Created an Android application from scratch",
-        "Have positive feedbacks from users",
-        "Improve an application performance",
+        this.$t('planning-android.positivetext1'),
+        this.$t('planning-android.positivetext2'),
+        this.$t('planning-android.positivetext3'),
       ],
-      improvement: ["Respect TDD method during the whole project"],
+      improvement: [this.$t('planning-android.improvementText1'),],
     };
   },
   watch: {
