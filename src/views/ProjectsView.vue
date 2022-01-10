@@ -16,10 +16,12 @@
     <PlanningProject
       v-if="$route.path == '/projects/planning-web'"
       :updateModeChild="updateMode"
+      :key="$i18n.locale"
     />
     <AndroidPlanningProject
       v-if="$route.path == '/projects/planning-android'"
       :updateModeChild="updateMode"
+      :key="$i18n.locale"
     />
     <QualityProject
       v-if="$route.path == '/projects/quality'"
