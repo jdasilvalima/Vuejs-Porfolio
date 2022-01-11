@@ -1,5 +1,5 @@
 <template>
-  <router-view/>
+  <div class="about h-screen dark:bg-gray-800"><router-view /></div>
 </template>
 
 <script>
@@ -8,15 +8,13 @@ export default {
     return {};
   },
   beforeCreate() {
-    if(localStorage.getItem('theme') === null)
-      localStorage.setItem('theme', 'light');
+    if (localStorage.getItem("theme") === null)
+      localStorage.setItem("theme", "light");
   },
   beforeUnmount() {
     //localStorage.removeItem('theme');
   },
-  methods: {
-  
-  },
+  methods: {},
 };
 </script>
 
