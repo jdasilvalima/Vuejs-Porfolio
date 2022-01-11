@@ -24,7 +24,7 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
+        class="text-gray-800 dark:text-teal-50 text-left md:mr-7 md:col-start-3 col-span-6 md:col-span-4"
       >
         <ul
           class="list-disc list-inside text-justify"
@@ -38,8 +38,8 @@
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
           src="@/assets/use-case-planning-android.png"
-          alt="Use case image for Planning Web Application project"
-          class=""
+          alt="Use case image for Planning Android Application project"
+          class="object-scale-down max-h-60"
         />
       </div>
       <!-- End Analysis -->
@@ -78,7 +78,7 @@
         <img
           src="@/assets/notion-planning.png"
           alt="Use case image for Planning Web Application project"
-          class="max-h-48"
+          class="object-cover max-h-60"
         />
       </div>
       <!-- End design -->
@@ -118,19 +118,11 @@
         </ul>
       </div>
 
-      <div class="md:col-start-7 col-span-6 md:col-span-2 flex justify-center">
-        <img
-          src="@/assets/layers-planning-back.png"
-          alt="Organization layers planning web appliation - Back-End"
-          class="max-h-48"
-        />
-      </div>
-
-      <div class="md:col-start-9 col-span-6 md:col-span-2 flex justify-center">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
           src="@/assets/layers-planning-android.png"
-          alt="Organization layers planning web appliation - Front-End"
-          class="max-h-48"
+          alt="Organization layers planning android appliation"
+          class="object-scale-down max-h-60"
         />
       </div>
       <!-- End coding -->
@@ -251,7 +243,7 @@
         <img
           src="@/assets/planning-android.png"
           alt="Planning Web Application project screen shot"
-          class="max-h-72"
+          class="object-scale-down max-h-72"
         />
       </div>
       <!-- End implementation -->
@@ -263,17 +255,15 @@
       </div>
 
       <!-- Start feedback -->
-      <div
-        class="md:col-start-3 col-span-8 md:col-span-8 grid grid-cols-8 grid-rows-auto"
-      >
+      <div class="col-span-6 md:col-start-5">
         <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 col-span-6 md:col-span-4"
+          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-5"
         >
           {{ $t("planning-android.positive") }}
         </div>
 
         <div
-          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 col-span-8 md:col-span-4 md:row-start-2"
+          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 md:row-start-2"
         >
           <ul
             class="list-disc list-inside text-justify"
@@ -283,28 +273,10 @@
             <li>{{ p }}</li>
           </ul>
         </div>
-
-        <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-8 md:col-span-4 md:row-start-1"
-        >
-          {{ $t("planning-android.improvement") }}
-        </div>
-
-        <div
-          class="text-gray-800 dark:text-teal-50 text-left md:col-start-5 col-span-8 md:col-span-4 md:row-start-2"
-        >
-          <ul
-            class="list-disc list-inside text-justify"
-            v-for="i in improvement"
-            :key="i"
-          >
-            <li>{{ i }}</li>
-          </ul>
-        </div>
       </div>
       <!-- End feeback -->
       <button
-        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}

@@ -14,7 +14,7 @@
       </div>
 
       <div class="md:col-start-3 col-span-6 md:col-span-8">
-        <img src="@/assets/mockup-portfolio.png" alt="portfolio mock up" />
+        <img src="@/assets/mockup-portfolio.png" alt="portfolio mock up" class="md:max-w-3xl rounded-lg"/>
       </div>
 
       <div
@@ -84,11 +84,11 @@
           href="https://github.com/jdasilvalima/Vuejs-Porfolio/tree/master/vue-ts"
           target="_blank"
         >
-          <img src="@/assets/github.svg" alt="Github logo" class="inline" />
+          <img src="@/assets/github.svg" alt="Github logo" class="ml-2 inline" />
         </a>
       </div>
       <button
-        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}

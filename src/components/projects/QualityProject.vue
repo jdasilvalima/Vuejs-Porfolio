@@ -48,17 +48,17 @@
       </ul>
 
       <div
-        class="my-5 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
+        class="mt-5 mb-10 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
       >
         <img
           src="@/assets/quality-dashboard.png"
           alt="quality dashboard image"
-          class="md:w-3/4"
+          class="md:max-w-xl rounded-lg"
         />
       </div>
 
       <ul
-        class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
+        class="text-gray-800 dark:text-teal-50 mb-5 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >
         <li v-html="$t('quality.subtitle3Automate')"></li>
       </ul>
@@ -66,9 +66,9 @@
       <div
         class="text-gray-800 dark:text-teal-50 mb-5 md:col-start-3 col-span-6 md:col-span-8 grid grid-cols-8 justify-items-center"
       >
-        <div class="col-span-6 md:col-span-2 flex flex-col items-center">
-          <img src="@/assets/outlook.png" alt="outlook image" class="w-24" />
-          <p>{{ $t("quality.supplierEmail") }}</p>
+        <div class="col-span-8 md:col-span-2 flex flex-col items-center">
+          <img src="@/assets/outlook.png" alt="outlook image" class="w-16" />
+          <p class="text-sm">{{ $t("quality.supplierEmail") }}</p>
         </div>
 
         <div
@@ -78,10 +78,10 @@
         </div>
 
         <div
-          class="col-span-6 md:col-span-2 md:col-start-4 flex flex-col items-center"
+          class="col-span-8 md:col-span-2 md:col-start-4 flex flex-col items-center"
         >
-          <img src="@/assets/folder.png" alt="folder image" class="w-24" />
-          <p>{{ $t("quality.supplierFile") }}</p>
+          <img src="@/assets/folder.png" alt="folder image" class="w-16" />
+          <p class="text-sm">{{ $t("quality.supplierFile") }}</p>
         </div>
 
         <div
@@ -91,30 +91,30 @@
         </div>
 
         <div
-          class="col-span-6 md:col-span-2 md:col-start-7 flex flex-col items-center"
+          class="col-span-8 md:col-span-2 md:col-start-7 flex flex-col items-center"
         >
-          <img src="@/assets/teams.png" alt="teams image" class="w-24" />
-          <p>{{ $t("quality.notification") }}</p>
+          <img src="@/assets/teams.png" alt="teams image" class="w-16" />
+          <p class="text-sm">{{ $t("quality.notification") }}</p>
         </div>
       </div>
 
       <ul
-        class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
+        class="text-gray-800 dark:text-teal-50 mt-10 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >
         <li v-html="$t('quality.subtitle3Decision')"></li>
       </ul>
 
       <div
-        class="my-5 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
+        class="mt-5 mb-10 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
       >
         <img
           src="@/assets/quality-page.png"
           alt="quality page example"
-          class="md:w-3/4"
+          class="md:max-w-xl rounded-lg"
         />
       </div>
       <button
-        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}
