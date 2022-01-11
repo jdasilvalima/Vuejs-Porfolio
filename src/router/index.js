@@ -28,42 +28,44 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
-  },
-  {
-    path: "/projects/portfolio",
-    name: "PortfolioProject",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
-  },
-  {
-    path: "/projects/planning-web",
-    name: "PlanningWebProject",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
-  },
-  {
-    path: "/projects/planning-android",
-    name: "PlanningAndroidProject",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
-  },
-  {
-    path: "/projects/quality",
-    name: "QualityProject",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+    children: [
+      {
+        path: "portfolio",
+        name: "PortfolioProject",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+      },
+      {
+        path: "planning-web",
+        name: "PlanningWebProject",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+      },
+      {
+        path: "planning-android",
+        name: "PlanningAndroidProject",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+      },
+      {
+        path: "quality",
+        name: "QualityProject",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+          import(/* webpackChunkName: "about" */ "../views/ProjectsView.vue"),
+      }
+    ],
   },
   {
     path: "/:catchAll(.*)",

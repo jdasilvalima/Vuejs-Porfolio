@@ -133,7 +133,7 @@ export default {
 </script>
 
 <style>
-.router-link-exact-active {
+.router-link-active {
   text-decoration: underline;
   text-decoration-color: #2dd4bf;
 }
