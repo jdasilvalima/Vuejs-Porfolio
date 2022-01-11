@@ -38,11 +38,7 @@
       <div
         class="row-start-8 md:row-start-6 md:col-start-3 col-span-6 md:col-span-3 md:mr-10 grid justify-items-center md:items-center"
       >
-        <img
-          class="h-32 md:h-auto"
-          :src="darkLightFiles"
-          alt="files image"
-        />
+        <img class="h-32 md:h-auto" :src="darkLightFiles" alt="files image" />
       </div>
       <div
         class="text-teal-700 dark:text-teal-400 font-semibold text-left md:col-start-6 col-span-6 md:col-span-5 row-start-6 md:row-start-5"
@@ -68,11 +64,14 @@
       <div
         class="md:row-start-8 md:col-start-8 col-span-6 md:col-span-3 md:ml-10 grid justify-items-center md:items-center"
       >
-        <img
-          class="h-32 md:h-60"
-          :src="darkLightAccept"
-          alt="accept image"
-        />
+        <img class="h-32 md:h-60" :src="darkLightAccept" alt="accept image" />
+      </div>
+      <div
+        class="dark:text-teal-50 font-semibold underline cursor-pointer md:col-start-3 col-span-8"
+      >
+        <router-link class="hover:text-teal-400" :to="{ name: 'Projects' }">{{
+          $t("goal.projectsList")
+        }}</router-link>
       </div>
     </div>
   </div>
