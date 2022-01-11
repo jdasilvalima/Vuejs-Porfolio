@@ -3,7 +3,7 @@
     <!-- Start arrow go back -->
     <div class="flex justify-end mt-10 mr-10">
       <img
-        class="h-11 w-11 cursor-pointer mb-10"
+        class="h-12 w-12 cursor-pointer mb-10"
         src="@/assets/drawing/arrow-back.svg"
         alt="arrow go back"
         @click="closeMobileNav(false)"
@@ -90,7 +90,7 @@ export default {
 </script>
 
 <style>
-#mob-nav-link > .router-link-exact-active {
+#mob-nav-link > .router-link-active {
   text-decoration: underline;
   text-decoration-color: #f0fdfa !important;
 }

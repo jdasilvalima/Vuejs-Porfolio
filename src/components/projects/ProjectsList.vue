@@ -20,7 +20,7 @@
           <li class="mb-5">
             {{ $t("project.comparator") }}
           </li>
-          <li class="mb-5">{{ $t("project.quality1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'QualityProject'}">{{ $t("project.quality2") }}</router-link> ;</li>
+          <li class="mb-5">{{ $t("project.quality1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'QualityProject'}">{{ $t("project.quality2") }}</router-link> {{ $t("project.quality3") }}</li>
           <li class="mb-5">
             {{ $t("project.portfolio1") }} <router-link class="text-teal-400 hover:underline" :to="{ name: 'PortfolioProject'}">{{ $t("project.portfolio2") }}</router-link> {{ $t("project.portfolio3") }}
           </li>

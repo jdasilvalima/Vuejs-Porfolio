@@ -39,7 +39,7 @@
         <img
           src="@/assets/use-case-planning-web.png"
           alt="Use case image for Planning Web Application project"
-          class="max-h-48"
+          class="object-scale-down max-h-52"
         />
       </div>
       <!-- End Analysis -->
@@ -78,7 +78,7 @@
         <img
           src="@/assets/notion-planning.png"
           alt="Use case image for Planning Web Application project"
-          class="max-h-48"
+          class="object-cover max-h-60"
         />
       </div>
       <!-- End design -->
@@ -100,7 +100,7 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-4"
+        class="text-gray-800 dark:text-teal-50 text-justify md:mr-7 md:col-start-3 col-span-6 md:col-span-4"
       >
         <ul class="list-disc list-inside">
           <li class="mb-3">
@@ -119,19 +119,11 @@
         </ul>
       </div>
 
-      <div class="md:col-start-7 col-span-6 md:col-span-2 flex justify-center">
+      <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/layers-planning-back.png"
-          alt="Organization layers planning web appliation - Back-End"
-          class="max-h-48"
-        />
-      </div>
-
-      <div class="md:col-start-9 col-span-6 md:col-span-2 flex justify-center">
-        <img
-          src="@/assets/layers-planning-front.png"
-          alt="Organization layers planning web appliation - Front-End"
-          class="max-h-48"
+          src="@/assets/layers-planning-web.png"
+          alt="Organization layers planning web appliation"
+          class="object-scale-down max-h-60"
         />
       </div>
       <!-- End coding -->
@@ -270,7 +262,7 @@
         <img
           src="@/assets/planning-web.png"
           alt="Planning Web Application project screen shot"
-          class="max-h-48"
+          class="max-h-60"
         />
       </div>
       <!-- End implementation -->
@@ -283,16 +275,16 @@
 
       <!-- Start feedback -->
       <div
-        class="md:col-start-3 col-span-8 md:col-span-8 grid grid-cols-8 grid-rows-auto"
+        class="col-span-6 md:col-span-7 md:col-start-4"
       >
         <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 col-span-6 md:col-span-4"
+          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-5"
         >
           {{ $t("planning-web.positive") }}
         </div>
 
         <div
-          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 col-span-8 md:col-span-4 md:row-start-2"
+          class="text-gray-800 dark:text-teal-50 text-left md:mr-10 mb-10 md:row-start-2"
         >
           <ul
             class="list-disc list-inside text-justify"
@@ -303,27 +295,10 @@
           </ul>
         </div>
 
-        <div
-          class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-3 md:col-start-5 col-span-8 md:col-span-4 md:row-start-1"
-        >
-          {{ $t("planning-web.improvement") }}
-        </div>
-
-        <div
-          class="text-gray-800 dark:text-teal-50 text-left md:col-start-5 col-span-8 md:col-span-4 md:row-start-2"
-        >
-          <ul
-            class="list-disc list-inside text-justify"
-            v-for="i in improvement"
-            :key="i"
-          >
-            <li>{{ i }}</li>
-          </ul>
-        </div>
       </div>
       <!-- End feeback -->
       <button
-        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}
