@@ -114,7 +114,7 @@
         />
       </div>
       <button
-        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
+        class="text-white text-sm rounded-full bg-teal-400 h-10 mb-16 px-5 hover:bg-teal-700 col-start-5 md:col-start-9 col-span-2 w-24"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}
