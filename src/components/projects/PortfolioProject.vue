@@ -31,14 +31,18 @@
           alt="figmalogo"
           class="h-16 row-start-1"
         />
-        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Figma</div>
+        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">
+          Figma
+        </div>
       </div>
 
       <div
         class="col-start-4 md:col-start-5 col-span-3 md:col-span-2 grid grid-rows-auto justify-items-center"
       >
         <img src="@/assets/vue.png" alt="figmalogo" class="h-16 row-start-1" />
-        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Vue.js</div>
+        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">
+          Vue.js
+        </div>
       </div>
 
       <div
@@ -61,7 +65,9 @@
           alt="figmalogo"
           class="h-16 row-start-1"
         />
-        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">Github</div>
+        <div class="text-gray-800 dark:text-teal-50 row-start-2 mt-3">
+          Github
+        </div>
       </div>
 
       <div
@@ -81,6 +87,12 @@
           <img src="@/assets/github.svg" alt="Github logo" class="inline" />
         </a>
       </div>
+      <button
+        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        @click="$router.go(-1)"
+      >
+        {{ $t("nav.goBack") }}
+      </button>
     </div>
   </div>
 </template>

@@ -29,12 +29,9 @@
         class="text-gray-800 dark:text-teal-50 mb-10 md:col-start-3 col-span-6 md:col-span-8"
       >
         <ul class="list-disc list-inside text-justify">
-          <li v-html="$t('quality.subtitle2Monitoring')">
-          </li>
-          <li v-html="$t('quality.subtitle2Automate')">
-          </li>
-          <li v-html="$t('quality.subtitle2Decision')">
-          </li>
+          <li v-html="$t('quality.subtitle2Monitoring')"></li>
+          <li v-html="$t('quality.subtitle2Automate')"></li>
+          <li v-html="$t('quality.subtitle2Decision')"></li>
         </ul>
       </div>
 
@@ -47,8 +44,7 @@
       <ul
         class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >
-        <li v-html="$t('quality.subtitle3Monitoring')">
-        </li>
+        <li v-html="$t('quality.subtitle3Monitoring')"></li>
       </ul>
 
       <div
@@ -64,8 +60,7 @@
       <ul
         class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >
-        <li v-html="$t('quality.subtitle3Automate')">
-        </li>
+        <li v-html="$t('quality.subtitle3Automate')"></li>
       </ul>
 
       <div
@@ -76,16 +71,28 @@
           <p>{{ $t("quality.supplierEmail") }}</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
+        <div
+          class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible"
+        >
+          . . . . . . . .
+        </div>
 
-        <div class="col-span-6 md:col-span-2 md:col-start-4 flex flex-col items-center">
+        <div
+          class="col-span-6 md:col-span-2 md:col-start-4 flex flex-col items-center"
+        >
           <img src="@/assets/folder.png" alt="folder image" class="w-24" />
           <p>{{ $t("quality.supplierFile") }}</p>
         </div>
 
-        <div class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible">. . . . . . . .</div>
+        <div
+          class="col-span-6 md:col-span-1 text-teal-500 flex items-center invisible md:visible"
+        >
+          . . . . . . . .
+        </div>
 
-        <div class="col-span-6 md:col-span-2 md:col-start-7 flex flex-col items-center">
+        <div
+          class="col-span-6 md:col-span-2 md:col-start-7 flex flex-col items-center"
+        >
           <img src="@/assets/teams.png" alt="teams image" class="w-24" />
           <p>{{ $t("quality.notification") }}</p>
         </div>
@@ -94,8 +101,7 @@
       <ul
         class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >
-        <li v-html="$t('quality.subtitle3Decision')">
-        </li>
+        <li v-html="$t('quality.subtitle3Decision')"></li>
       </ul>
 
       <div
@@ -107,6 +113,12 @@
           class="md:w-3/4"
         />
       </div>
+      <button
+        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        @click="$router.go(-1)"
+      >
+        {{ $t("nav.goBack") }}
+      </button>
     </div>
   </div>
 </template>
