@@ -14,7 +14,7 @@
       </div>
 
       <div class="md:col-start-3 col-span-6 md:col-span-8">
-        <img src="@/assets/mockup-portfolio.png" alt="portfolio mock up" class="md:max-w-3xl rounded-lg"/>
+        <img src="@/assets/mockup-portfolio.png" alt="portfolio mock up" class=" rounded-lg"/>
       </div>
 
       <div
@@ -77,7 +77,7 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left mb-10 md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-800 dark:text-teal-50 text-left mb-16 md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("portfolio.subtitle3") }}
         <a
@@ -88,7 +88,7 @@
         </a>
       </div>
       <button
-        class="text-white text-sm rounded-full bg-teal-400 hover:bg-teal-700 col-start-6 md:col-start-10 h-10 mb-16"
+        class="text-white text-sm rounded-full bg-teal-400 h-10 mb-16 px-5 hover:bg-teal-700 col-start-5 md:col-start-9 col-span-2 w-24"
         @click="$router.go(-1)"
       >
         {{ $t("nav.goBack") }}

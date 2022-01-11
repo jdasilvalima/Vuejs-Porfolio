@@ -78,11 +78,13 @@
         />
       </div>
       <div class="md:col-start-3 col-span-6 md:col-span-8 my-10 md:my-14">
-        <button class="text-white font-semibold rounded-full bg-teal-400 hover:bg-teal-700 py-2 px-2 md:w-5/12">
-          <router-link :to="{ name: 'Projects' }">
-            {{ $t("goal.projectsList") }}</router-link
+        <router-link :to="{ name: 'Projects' }">
+          <button
+            class="text-white font-semibold rounded-full bg-teal-400 hover:bg-teal-700 py-2 px-7"
           >
-        </button>
+            {{ $t("goal.projectsList") }}
+          </button>
+        </router-link>
       </div>
     </div>
   </div>
