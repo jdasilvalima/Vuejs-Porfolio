@@ -10,7 +10,7 @@
     <!-- Start mobile menu -->
     <div class="flex justify-end mr-10 md:hidden">
       <img
-        class="h-11 w-11 cursor-pointer"
+        class="h-12 w-12 cursor-pointer"
         :src="darkLightMenu"
         alt="mobile menu"
         @click="mobileNav()"
@@ -23,8 +23,8 @@
         class="md:order-last mb-5 md:mb-0 md:col-start-10 col-span-6 md:col-span-1 flex justify-center"
       >
         <img
-          class="h-16 w-16 rounded-full"
-          src="../../assets/color.jpg"
+          class="h-20 w-20 md:h-16 md:w-16 rounded-full"
+          src="../../assets/color-square.jpg"
           alt="profile picture"
         />
       </div>
@@ -42,7 +42,7 @@
           id="nav-link"
           v-for="navbar in navbars"
           :key="navbar.names"
-          class="text-teal-400 font-medium mr-5"
+          class="text-teal-400 hover:text-teal-700 font-medium mr-5"
         >
           <router-link :to="navbar.router">{{ navbar.names }}</router-link>
         </div>
