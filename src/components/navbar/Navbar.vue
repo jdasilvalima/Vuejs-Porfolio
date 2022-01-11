@@ -13,7 +13,7 @@
         class="h-11 w-11 cursor-pointer"
         :src="darkLightMenu"
         alt="mobile menu"
-        @click="visibleMobileNav = !visibleMobileNav"
+        @click="mobileNav()"
       />
     </div>
     <!-- End mobile menu -->
@@ -100,6 +100,7 @@ export default {
     localStorage.getItem("theme") === "light"
       ? this.lightMode()
       : this.darkMode();
+    document.getElementsByTagName("body")[0].style.overflowY = "scroll";
   },
   methods: {
     setLocale(locale) {
@@ -125,6 +126,10 @@ export default {
       this.darkLightIcon = require(`../../assets/sun.svg`);
       this.darkLightMenu = require(`../../assets/drawing/menu_dark.svg`);
     },
+    mobileNav() {
+      this.visibleMobileNav = true;
+      document.getElementsByTagName("body")[0].style.overflowY = "hidden";
+    },
     closeMobileNav(data) {
       this.visibleMobileNav = data;
     },
@@ -133,7 +138,7 @@ export default {
 </script>
 
 <style>
-.router-link-exact-active {
+.router-link-active {
   text-decoration: underline;
   text-decoration-color: #2dd4bf;
 }

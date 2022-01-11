@@ -156,16 +156,23 @@
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
           <ul class="list-disc list-inside">
-            <li class="mb-3" v-html="$t('planning-android.subtitle4Text1')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-android.subtitle4Text2')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-android.subtitle4Text3')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-android.subtitle4Text4')">
-            </li>
-            <li v-html="$t('planning-android.subtitle4Text5')">
-            </li>
+            <li
+              class="mb-3"
+              v-html="$t('planning-android.subtitle4Text1')"
+            ></li>
+            <li
+              class="mb-3"
+              v-html="$t('planning-android.subtitle4Text2')"
+            ></li>
+            <li
+              class="mb-3"
+              v-html="$t('planning-android.subtitle4Text3')"
+            ></li>
+            <li
+              class="mb-3"
+              v-html="$t('planning-android.subtitle4Text4')"
+            ></li>
+            <li v-html="$t('planning-android.subtitle4Text5')"></li>
           </ul>
         </div>
 
@@ -204,7 +211,6 @@
                 >OWASP ZAP</span
               >
             </div>
-            
           </div>
         </div>
 
@@ -297,6 +303,12 @@
         </div>
       </div>
       <!-- End feeback -->
+      <button
+        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        @click="$router.go(-1)"
+      >
+        {{ $t("nav.goBack") }}
+      </button>
     </div>
   </div>
 </template>
@@ -308,21 +320,21 @@ export default {
     return {
       darkLightDots: null,
       analysis: [
-        this.$t('planning-android.subtitle1Text1'),
-        this.$t('planning-android.subtitle1Text2'),
-        this.$t('planning-android.subtitle1Text3'),
+        this.$t("planning-android.subtitle1Text1"),
+        this.$t("planning-android.subtitle1Text2"),
+        this.$t("planning-android.subtitle1Text3"),
       ],
       design: [
-        this.$t('planning-android.subtitle2Text1'),
-        this.$t('planning-android.subtitle2Text2'),
-        this.$t('planning-android.subtitle2Text3'),
+        this.$t("planning-android.subtitle2Text1"),
+        this.$t("planning-android.subtitle2Text2"),
+        this.$t("planning-android.subtitle2Text3"),
       ],
       positive: [
-        this.$t('planning-android.positivetext1'),
-        this.$t('planning-android.positivetext2'),
-        this.$t('planning-android.positivetext3'),
+        this.$t("planning-android.positivetext1"),
+        this.$t("planning-android.positivetext2"),
+        this.$t("planning-android.positivetext3"),
       ],
-      improvement: [this.$t('planning-android.improvementText1'),],
+      improvement: [this.$t("planning-android.improvementText1")],
     };
   },
   watch: {

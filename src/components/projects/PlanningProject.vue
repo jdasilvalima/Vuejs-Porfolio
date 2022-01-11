@@ -155,22 +155,14 @@
       <div
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
-        <div
-          class="text-gray-800 dark:text-teal-50 text-left md:order-last"
-        >
+        <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
           <ul class="list-disc list-inside">
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text1')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text2')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text3')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text4')">
-            </li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text5')">
-            </li>
-            <li v-html="$t('planning-web.subtitle4Text6')">
-            </li>
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text1')"></li>
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text2')"></li>
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text3')"></li>
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text4')"></li>
+            <li class="mb-3" v-html="$t('planning-web.subtitle4Text5')"></li>
+            <li v-html="$t('planning-web.subtitle4Text6')"></li>
           </ul>
         </div>
 
@@ -330,6 +322,12 @@
         </div>
       </div>
       <!-- End feeback -->
+      <button
+        class="rounded-full bg-teal-400 md:col-start-10 h-10"
+        @click="$router.go(-1)"
+      >
+        {{ $t("nav.goBack") }}
+      </button>
     </div>
   </div>
 </template>
@@ -341,22 +339,22 @@ export default {
     return {
       darkLightDots: null,
       analysis: [
-        this.$t('planning-web.subtitle1Text1'),
-        this.$t('planning-web.subtitle1Text2'),
-        this.$t('planning-web.subtitle1Text3'),
+        this.$t("planning-web.subtitle1Text1"),
+        this.$t("planning-web.subtitle1Text2"),
+        this.$t("planning-web.subtitle1Text3"),
       ],
       design: [
-        this.$t('planning-web.subtitle2Text1'),
-        this.$t('planning-web.subtitle2Text2'),
-        this.$t('planning-web.subtitle2Text3'),
-        this.$t('planning-web.subtitle2Text4'),
+        this.$t("planning-web.subtitle2Text1"),
+        this.$t("planning-web.subtitle2Text2"),
+        this.$t("planning-web.subtitle2Text3"),
+        this.$t("planning-web.subtitle2Text4"),
       ],
       positive: [
-        this.$t('planning-web.positivetext1'),
-        this.$t('planning-web.positivetext2'),
-        this.$t('planning-web.positivetext3'),
+        this.$t("planning-web.positivetext1"),
+        this.$t("planning-web.positivetext2"),
+        this.$t("planning-web.positivetext3"),
       ],
-      improvement: [this.$t('planning-web.improvementText1')],
+      improvement: [this.$t("planning-web.improvementText1")],
     };
   },
   watch: {

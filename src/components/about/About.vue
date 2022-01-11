@@ -10,9 +10,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-3 col-span-6 md:col-span-8"
         v-html="$t('about.title1Text')"
-      >
-        
-      </div>
+      ></div>
       <!-- End presentation -->
 
       <div
@@ -41,7 +39,14 @@
             <div class="font-medium text-teal-600 dark:text-teal-100">
               {{ job.company }}
             </div>
-            <div class="text-sm">{{ job.location }}</div>
+            <div class="text-sm">
+              <img
+                class="max-h-3 inline mr-2"
+                :src="job.flag"
+                alt="country flag"
+              />
+              {{ job.location }}
+            </div>
           </div>
 
           <div
@@ -95,8 +100,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify mb-5 md:col-start-4 col-span-7"
         v-html="$t('about.dawanSchool.coursework')"
-      >
-      </div>
+      ></div>
 
       <div
         class="col-start-1 md:col-start-3 col-span-6 md:col-span-1 flex justify-center"
@@ -122,8 +126,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-4 col-span-7"
         v-html="$t('about.bsaSchool.coursework')"
-      >
-      </div>
+      ></div>
       <!-- End education -->
 
       <div
@@ -176,52 +179,56 @@ export default {
       jobExperience: [
         {
           id: 1,
-          title: this.$t('about.dawan.title'),
-          dates: this.$t('about.dawan.dates'),
-          company: this.$t('about.dawan.company'),
-          location: this.$t('about.dawan.location'),
+          title: this.$t("about.dawan.title"),
+          dates: this.$t("about.dawan.dates"),
+          company: this.$t("about.dawan.company"),
+          location: this.$t("about.dawan.location"),
+          flag: require(`@/assets/france-flag.png`),
           tasks: [
-            this.$t('about.dawan.tasks1'),
-            this.$t('about.dawan.tasks2'),
-            this.$t('about.dawan.tasks3'),
-            this.$t('about.dawan.tasks4')
+            this.$t("about.dawan.tasks1"),
+            this.$t("about.dawan.tasks2"),
+            this.$t("about.dawan.tasks3"),
+            this.$t("about.dawan.tasks4"),
           ],
         },
         {
           id: 2,
-          title: this.$t('about.cuisine.title'),
-          dates: this.$t('about.cuisine.dates'),
-          company: this.$t('about.cuisine.company'),
-          location: this.$t('about.cuisine.location'),
+          title: this.$t("about.cuisine.title"),
+          dates: this.$t("about.cuisine.dates"),
+          company: this.$t("about.cuisine.company"),
+          location: this.$t("about.cuisine.location"),
+          flag: require(`@/assets/american-flag.png`),
           tasks: [
-            this.$t('about.cuisine.tasks1'),
-            this.$t('about.cuisine.tasks2'),
-            this.$t('about.cuisine.tasks3'),
-            this.$t('about.cuisine.tasks4')
+            this.$t("about.cuisine.tasks1"),
+            this.$t("about.cuisine.tasks2"),
+            this.$t("about.cuisine.tasks3"),
+            this.$t("about.cuisine.tasks4"),
           ],
         },
         {
           id: 3,
-          title: this.$t('about.florette.title'),
-          dates: this.$t('about.florette.dates'),
-          company: this.$t('about.florette.company'),
-          location: this.$t('about.florette.location'),
+          title: this.$t("about.florette.title"),
+          dates: this.$t("about.florette.dates"),
+          company: this.$t("about.florette.company"),
+          location: this.$t("about.florette.location"),
+          flag: require(`@/assets/france-flag.png`),
           tasks: [
-            this.$t('about.florette.tasks1'),
-            this.$t('about.florette.tasks2'),
-            this.$t('about.florette.tasks3'),
+            this.$t("about.florette.tasks1"),
+            this.$t("about.florette.tasks2"),
+            this.$t("about.florette.tasks3"),
           ],
         },
         {
           id: 4,
-          title: this.$t('about.neuhauser.title'),
-          dates: this.$t('about.neuhauser.dates'),
-          company: this.$t('about.neuhauser.company'),
-          location: this.$t('about.neuhauser.location'),
+          title: this.$t("about.neuhauser.title"),
+          dates: this.$t("about.neuhauser.dates"),
+          company: this.$t("about.neuhauser.company"),
+          location: this.$t("about.neuhauser.location"),
+          flag: require(`@/assets/france-flag.png`),
           tasks: [
-            this.$t('about.neuhauser.tasks1'),
-            this.$t('about.neuhauser.tasks2'),
-            this.$t('about.neuhauser.tasks3'),
+            this.$t("about.neuhauser.tasks1"),
+            this.$t("about.neuhauser.tasks2"),
+            this.$t("about.neuhauser.tasks3"),
           ],
         },
       ],

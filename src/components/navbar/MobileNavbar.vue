@@ -74,6 +74,7 @@ export default {
       this.$emit("mobileLocale", locale);
     },
     closeMobileNav(boolean) {
+      document.getElementsByTagName("body")[0].style.overflowY = "scroll";
       this.$emit("mobileNav", boolean);
     },
     switchDarkLightMode() {

@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex items-center justify-center dark:bg-gray-800">
+  <div class="flex items-center justify-center">
     <div>404 | This page could not be found.</div>
   </div>
 </template>
