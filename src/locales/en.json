@@ -22,7 +22,7 @@
     "projectsList": "Check some of my projects"
   },
   "about": {
-    "title1": "“Simple & Efficace”",
+    "title1": "“Simple & Efficient”",
     "title1Text": "Throughout my career as a quality manager for food companies, I have often wanted to be able to <span class='font-semibold'>code tools</span> that would allow me to automate and do better monitoring. Back from my four-year stay in the United States, I decided to take the plunge and obtain a <span class='font-semibold'>computer science degree</span>. <div class='mb-1'><br /></div> Today I am happy to be able to make the link between my knowledge in <span class='font-semibold'>quality management</span> and the one in <span class='font-semibold'>software development</span>. I am currently creating simple and efficient software to help teams in their daily tasks and accompany them to take decisions.",
     "title2": "My double experience as a Quality Manager & a Software Developer",
     "dawan": {
@@ -94,13 +94,13 @@
     "portfolio3": "(Vue.js) to explain how I am using my knowledge in project & quality management for software development."
   },
   "portfolio": {
-    "title": "Project - Personal Portfolio",
+    "title": "Personal Project - Portfolio",
     "subtitle1": "Design",
     "subtitle2": "Technologies used",
     "subtitle3": "You can find the code on Github"
   },
   "quality": {
-    "title": "Project - Quality management system design",
+    "title": "Personal Project - Quality management system design",
     "subtitle1": "❔ The Issue",
     "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
     "subtitle2": "🎯 The Goals",
@@ -116,7 +116,7 @@
     "subtitle3Decision": "<span class='font-semibold'>Decision helper :</span> reports, data visualization, data analysis, sort data"
   },
   "planning-web": {
-    "title": "Project - Planning Application (Java / Vue.js)",
+    "title": "Company Project - Planning Application (Java / Vue.js)",
     "subtitle1": "Analysis",
     "subtitle1Text1": "Learned about customers' requirements",
     "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
@@ -145,7 +145,7 @@
     "improvementText1": "Better respect the TDD method throughout the project"
   },
   "planning-android": {
-    "title": "Project - Android planning application (Java)",
+    "title": "Company Project - Android planning application (Java)",
     "subtitle1": "Analysis",
     "subtitle1Text1": "Learned about customers' requirements",
     "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
