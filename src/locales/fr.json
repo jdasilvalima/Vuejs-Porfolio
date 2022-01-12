@@ -94,13 +94,13 @@
     "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité pour développer des logiciels."
   },
   "portfolio": {
-    "title": "Projet - Portfolio personnel",
+    "title": "Projet personnel - Portfolio",
     "subtitle1": "Conception",
     "subtitle2": "Technologies utilisées",
     "subtitle3": "Vous trouverez le code sur Github"
   },
   "quality": {
-    "title": "Projet - Conception du système de management de la qualité",
+    "title": "Projet personnel - Conception du système de management de la qualité",
     "subtitle1": "❔ Le Problème",
     "subtitle1Text": "Comment aider les équipes qualité dans leurs tâches quotidiennes tout en préparant les audits en cours d'année ?",
     "subtitle2": "🎯 Les Objectifs",
@@ -116,7 +116,7 @@
     "subtitle3Decision": "<span class='font-semibold'>Aide à la décision :</span> rapports, visualisation de données, analyse de données, tri de données"
   },
   "planning-web": {
-    "title": "Projet - Application de Planification  (Java / Vue.js)",
+    "title": "Projet Entreprise - Application de Planification  (Java / Vue.js)",
     "subtitle1": "Analyse",
     "subtitle1Text1": "Connaître les exigences du client",
     "subtitle1Text2": "Rédiger le dossier des spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",
@@ -145,7 +145,7 @@
     "improvementText1": "Mieux respecter la méthode TDD tout au long du projet"
   },
   "planning-android": {
-    "title": "Projet - Application de planification Android (Java)",
+    "title": "Projet Entreprise - Application de planification Android (Java)",
     "subtitle1": "Analyse",
     "subtitle1Text1": "Connaître les exigences du client",
     "subtitle1Text2": "Rédiger le dossier de spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",
