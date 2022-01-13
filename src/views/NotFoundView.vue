@@ -19,9 +19,6 @@
 
 <script>
 export default {
-  created() {
-    console.log(this.$i18n.locale);
-  }
 };
 </script>
 
