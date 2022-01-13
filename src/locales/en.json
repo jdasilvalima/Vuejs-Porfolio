@@ -111,6 +111,7 @@
     "subtitle2Decision": "<span class='font-semibold'>Decision helper :</span> quarterly review, KPI indicators, follow up on audit preparation",
     "subtitle3": "✔️ Solutions",
     "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> create a dashboard for QA team, notify managers immediately when there is a quality issue, create different pages to manage suppliers, food fraud, trainings, etc.",
+    "subtitle3PowerBI": "Dashboard synchronized with PowerBI :",
     "subtitle3Automate": "<span class='font-semibold'>Automate :</span> automate with workflows using internal softwares, external applications (Teams, Outlook, etc) and suppliers' API",
     "supplierEmail": "Send automatically emails to suppliers",
     "supplierFile": "Save files from suppliers in their folders",

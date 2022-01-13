@@ -57,6 +57,18 @@
         />
       </div>
 
+      <div class="text-gray-800 dark:text-teal-50 md:col-start-3 col-span-6 md:col-span-8 text-left">{{ $t("quality.subtitle3PowerBI") }}</div>
+
+      <div
+        class="mt-5 mb-10 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
+      >
+        <img
+          src="@/assets/PowerBI.png"
+          alt="Power BI image"
+          class="md:max-w-xl rounded-lg"
+        />
+      </div>
+
       <ul
         class="text-gray-800 dark:text-teal-50 mb-5 md:col-start-3 col-span-6 md:col-span-8 list-disc list-inside text-justify"
       >

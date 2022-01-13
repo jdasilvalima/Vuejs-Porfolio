@@ -111,6 +111,7 @@
     "subtitle2Decision": "<span class='font-semibold'>Aide à la décision :</span> revue trimestrielle, indicateurs KPI, suivi de la préparation des audits",
     "subtitle3": "✔️ Solutions",
     "subtitle3Monitoring": "<span class='font-semibold'>Suivi :</span> créer un tableau de bord pour l'équipe QA, informer immédiatement les responsables en cas de problème de qualité, créer différentes pages pour gérer les fournisseurs, la fraude alimentaire, les formations, etc.",
+    "subtitle3PowerBI": "Tableau de bord synchronisé avec PowerBI :",
     "subtitle3Automate": "<span class='font-semibold'>Automatiser :</span> automatiser en utilisant des logiciels internes, des applications externes (Teams, Outlook, etc.) et l'API des fournisseurs.",
     "supplierEmail": "Envoyer automatiquement des e-mails aux fournisseurs",
     "supplierFile": "Enregistrer les fichiers des fournisseurs dans leurs dossiers",
