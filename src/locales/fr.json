@@ -6,7 +6,9 @@
     "goal": "Objectifs",
     "projects": "Projets",
     "about": "À propos",
-    "goBack": "Retour"
+    "goBack": "Retour",
+    "notFound": " Cette page n'a pas pu être trouvée.",
+    "backMainPage": "Revenir à la page principale"
   },
   "goal": {
     "title": "Concepteur & Développeur de Logiciel",

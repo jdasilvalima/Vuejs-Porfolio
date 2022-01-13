@@ -6,7 +6,9 @@
     "goal": "Goal",
     "projects": "Projects",
     "about": "About",
-    "goBack": "Go Back"
+    "goBack": "Go Back",
+    "notFound": " This page could not be found.",
+    "backMainPage": "Go back to the Main Page"
   },
   "goal": {
     "title": "Software Designer & Developer",

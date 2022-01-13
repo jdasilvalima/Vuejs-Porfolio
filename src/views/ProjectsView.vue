@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="xl:px-32 2xl:px-44">
     <Navbar
       :title="$t('nav.titleProjects')"
       :key="$i18n.locale"
