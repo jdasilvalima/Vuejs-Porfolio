@@ -2,7 +2,7 @@
   <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("quality.title") }}
       </div>
@@ -17,22 +17,6 @@
         class="text-gray-800 dark:text-teal-50 text-justify mb-10 md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("quality.subtitle1Text") }}
-      </div>
-
-      <div
-        class="text-teal-700 dark:text-teal-400 font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
-      >
-        {{ $t("quality.subtitle2") }}
-      </div>
-
-      <div
-        class="text-gray-800 dark:text-teal-50 mb-10 md:col-start-3 col-span-6 md:col-span-8"
-      >
-        <ul class="list-disc list-inside text-justify">
-          <li v-html="$t('quality.subtitle2Monitoring')"></li>
-          <li v-html="$t('quality.subtitle2Automate')"></li>
-          <li v-html="$t('quality.subtitle2Decision')"></li>
-        </ul>
       </div>
 
       <div
@@ -120,9 +104,9 @@
         class="mt-5 mb-10 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
       >
         <img
-          src="@/assets/quality-page.png"
-          alt="quality page example"
-          class="md:max-w-xl rounded-lg"
+          src="@/assets/quality-improvement.svg"
+          alt="schema quality improvement"
+          class="md:max-h-96"
         />
       </div>
       <button

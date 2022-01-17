@@ -107,10 +107,6 @@
     "title": "Personal Project - Quality management system design",
     "subtitle1": "❔ The Issue",
     "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
-    "subtitle2": "🎯 The Goals",
-    "subtitle2Monitoring": "<span class='font-semibold'>Monitoring :</span> alert when Non-Conformities are not closed or when there is a recurrence with a Non-Conformity, follow audits if they are shceduled or not, watch customer complaints ...",
-    "subtitle2Automate": "<span class='font-semibold'>Automate :</span> send emails, organize documents received from suppliers, use suppliers' API (eg laboratory and pest control company) to log results",
-    "subtitle2Decision": "<span class='font-semibold'>Continuous improvement :</span> quarterly review, KPI indicators, follow up on audit preparation",
     "subtitle3": "✔️ Solutions",
     "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> create a dashboard for QA team, notify managers immediately when there is a quality issue, create different pages to manage suppliers, food fraud, trainings, etc.",
     "subtitle3PowerBI": "Software synchronized with PowerBI :",
@@ -118,7 +114,7 @@
     "supplierEmail": "Send automatically emails to suppliers",
     "supplierFile": "Save files from suppliers in their folders",
     "notification": "Notify QA team to review new documents",
-    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> reports, data visualization, data analysis, sort data"
+    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> alert when Non-Conformities are not closed or when there is a recurrence with a Non-Conformity, follow audits if they are shceduled or not, watch customer complaints"
   },
   "planning-web": {
     "title": "Company Project - Planning Application (Java / Vue.js)",
