@@ -127,6 +127,12 @@
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-4 col-span-7"
         v-html="$t('about.bsaSchool.coursework')"
       ></div>
+
+      <div
+        class="text-gray-800 dark:text-teal-50 text-justify mt-10 md:col-start-3 col-span-6 md:col-span-8"
+        v-html="$t('about.skills')"
+      >
+      </div>
       <!-- End education -->
 
       <div

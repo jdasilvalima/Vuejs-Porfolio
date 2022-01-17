@@ -76,6 +76,7 @@
       "dates": "Septembre 2011 – Septembre 2014",
       "coursework": "<span class='font-bold'>Cours pertinents : </span> Qualité, Management Intégré et Développement Durable, Outils de management QSE pour les ingénieurs des filières alimentaires, Economie d'entreprise"
     },
+    "skills": "<span class='font-bold'>Compétences techniques :</span> HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, C#, ASP.NET, Java, Spring Boot, Android, SQL (SQL Server, MySQL , PostgreSQL), tests (Jest / Nightwatch / JUnit), API Rest, WebSocket, Git, Figma, Notion.",
     "title4": "Contactez-moi via LinkedIn"
   },
   "project": {
