@@ -20,7 +20,7 @@
     "subtitle2": "Automate",
     "subtitle2Text": "It happens frequently that teams are under pressure with an important amount of workload 🗃️. Software can automate repetitive tasks in order to save time, improve efficiency and free up time for more complex tasks. 🔎 I like to audit processes and integrate productivity tools to help teams in their daily tasks.",
     "subtitle3": "Continuous improvement",
-    "subtitle3Text": "The implementation of quality processes helps prevent problems, or ensure that they will not recur, using preventive actions, root cause analysis and collaborative participation 🤝. A big part of continuous improvement also comes with CI / CD, agile principle, software tests and sharing knowledge within the company.",
+    "subtitle3Text": "The implementation of quality processes helps prevent problems, or ensure that they will not recur, using preventive actions, root cause analysis and collaborative participation 🤝. Continuous improvement also integrates CI / CD, agile principle, software tests and sharing knowledge within the company.",
     "projectsList": "Check some of my projects out!"
   },
   "about": {
@@ -76,12 +76,12 @@
       "dates": "September 2011 – September 2014",
       "coursework": "<span class='font-bold'>Relevant Coursework : </span> Quality, Integrated Management and Sustainable Development, QSE Management tools for engineers in food value chains, Business Economics"
     },
-    "skills": "<span class='font-bold'>Technical Skills :</span> HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, C#, ASP.NET, Java, Spring Boot, Android, SQL (SQL Server, MySQL, PostgreSQL), tests (Jest / Nightwatch / JUnit), Rest API, WebSocket, Git, Figma, Notion.",
+    "skills": "<span class='font-bold'>Technologies known :</span> HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, C#, ASP.NET, Java, Spring Boot, Android, SQL (SQL Server, MySQL, PostgreSQL), tests (Jest / Nightwatch / JUnit / JMeter), Rest API, WebSocket, Git, Figma, Notion.",
     "title4": "Contact me through LinkedIn"
   },
   "project": {
     "title": "Projects list",
-    "subtitle1": "Companies projects",
+    "subtitle1": "Professional projects",
     "subtitle2": "Personal projects",
     "planningWeb1": "Built",
     "planningWeb2": "a planning application",
@@ -110,17 +110,17 @@
     "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
     "subtitle3": "✔️ Solutions",
     "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> create a dashboard for QA team, notify managers immediately when there is a quality issue, create different pages to manage suppliers, food fraud, trainings, etc.",
-    "subtitle3PowerBI": "Software synchronized with PowerBI :",
+    "subtitle3PowerBI": "Software synchronized with PowerBI o quickly obtain quarterly reviews :",
     "subtitle3Automate": "<span class='font-semibold'>Automate :</span> automate with workflows using internal softwares, external applications (Teams, Outlook, etc) and suppliers' API",
     "supplierEmail": "Send automatically emails to suppliers",
     "supplierFile": "Save files from suppliers in their folders",
     "notification": "Notify QA team to review new documents",
-    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> alert when Non-Conformities are not closed or when there is a recurrence with a Non-Conformity, follow audits if they are shceduled or not, watch customer complaints"
+    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> alert when non-conformities are not closed, or when there is a recurrence with a non-conformity, watch customer complaints or issues on the floor"
   },
   "planning-web": {
     "title": "Company Project - Planning Application (Java / Vue.js)",
-    "issueText": "The company decided to stop using a spreadsheet and create a web application their planning management tool. This improvement was motivated by the fact that the spreadsheet was not easy for the company to keep track of modification and they could not improve it with new needs.",
-    "solutionText": "The company wanted to create a web application to have a tool easier to use, more readable and synchronizable while multiple users were using it. The specifications given were : using color coding to see at a glance in which city trainings would be taken place, having a planning for each category of employees, being able to visualize the planning all over the year, implementing filters by user and by training.",
+    "issueText": "The company used a CSV file as a planning management tool. However, it was not easy to follow the changes and the company could not improve the file to meet its new needs (connection to an existing webservice, real-time application, send calendar to trainers in .ics format, etc).",
+    "solutionText": "Creation of a web application to have a tool easier to use, more readable and synchronizable while multiple users were using it. The specifications given were for instance : using color coding to see at a glance in which city trainings would be taken place, having a planning for each category of employees, being able to visualize the planning all over the year, implementing filters by user and by training.",
     "subtitle1": "Analysis",
     "subtitle1Text1": "Learned about customers' requirements",
     "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",
@@ -151,7 +151,7 @@
   "planning-android": {
     "title": "Company Project - Android planning application (Java)",
     "issueText": "Non-admin employees didn't have access easily to their planning to know when they have to teach.",
-    "solutionText": "Creation of a mobile application to know the list of the connected employee's trainings during the year, see details of his trainings and possibility to synchronize a training with his calendar.",
+    "solutionText": "Creation of a mobile application to know the list of the connected employee's trainings, see details of his trainings and possibility to synchronize a training with his calendar.",
     "subtitle1": "Analysis",
     "subtitle1Text1": "Learned about customers' requirements",
     "subtitle1Text2": "Wrote functional and technical specifications file (eg: Use cases view, Logical (functional) view, Realization view, Deployment view, ...)",

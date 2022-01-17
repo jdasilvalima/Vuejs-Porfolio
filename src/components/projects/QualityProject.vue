@@ -104,9 +104,9 @@
         class="mt-5 mb-10 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
       >
         <img
-          src="@/assets/quality-improvement.svg"
+          src="@/assets/quality-improvement.png"
           alt="schema quality improvement"
-          class="md:max-h-96"
+          class="md:max-w-xl rounded-lg"
         />
       </div>
       <button

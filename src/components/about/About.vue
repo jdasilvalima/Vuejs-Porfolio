@@ -3,7 +3,7 @@
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <!-- Start presentation -->
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("about.title1") }}
       </div>
@@ -20,7 +20,7 @@
       </div>
 
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("about.title2") }}
       </div>
@@ -73,7 +73,7 @@
 
       <!-- Start education -->
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-10"
+        class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-10"
       >
         {{ $t("about.title3") }}
       </div>

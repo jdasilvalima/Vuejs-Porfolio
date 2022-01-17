@@ -16,11 +16,11 @@
     "purpose": "Mon but",
     "purposeText": "Mon objectif est de créer des logiciels qui aident les entreprises à automatiser leurs processus et mieux surveiller leurs opérations dans un système d'amélioration continue ✔️.",
     "subtitle1": "Surveillance & Visualisation des Données",
-    "subtitle1Text": "Il est important que les entreprises soient proactives dans ce monde moderne et rapide 🌍. Le suivi des processus et des indicateurs à l'aide d'un logiciel peut aider les équipes à détecter les problèmes avant qu'ils ne surviennent. En travaillant en tant que responsable qualité, j'ai pu aider les entreprises à sauver du temps et de l'argent en surveillant les opérations au quotidien. C'est pourquoi, en tant que développeur de logiciels, j'essaie de créer des tableaux de bord simples et efficaces qui fournissent des informations pertinentes.",
+    "subtitle1Text": "Il est important que les entreprises soient proactives dans ce monde moderne et rapide 🌍. Le suivi des processus et des indicateurs à l'aide d'un logiciel peut aider les équipes à détecter les problèmes avant qu'ils ne surviennent. En travaillant en tant que responsable qualité, j'ai pu aider les entreprises à sauver du temps 🕖 et de l'argent en surveillant les opérations du quotidien. C'est pourquoi, en tant que développeur de logiciels, j'essaie de créer des tableaux de bord simples et efficaces qui fournissent des informations pertinentes.",
     "subtitle2": "Automatiser",
     "subtitle2Text": "Il arrive fréquemment que les équipes soient sous pression avec une charge de travail importante 🗃️. Les logiciels peuvent automatiser les tâches répétitives afin de gagner du temps, d'améliorer l'efficacité et de libérer du temps pour des tâches plus complexes. 🔎 J'aime auditer les processus et intégrer des outils de productivité pour aider les équipes dans leurs tâches quotidiennes.",
     "subtitle3": "Amélioration continue",
-    "subtitle3Text": "La mise en place de processus qualité permet de prévenir les problèmes, ou de s'assurer qu'ils ne se reproduiront pas, en utilisant des actions préventives, une analyse des causes et une participation collaborative 🤝. Une grande partie de l'amélioration continue passe aussi par le CI/CD, le principe agile, les tests logiciels et le partage des connaissances au sein de l'entreprise.",
+    "subtitle3Text": "La mise en place de processus qualité permet de prévenir les problèmes, ou de s'assurer qu'ils ne se reproduiront pas, en utilisant des actions préventives, une analyse des causes et une participation collaborative 🤝. L'amélioration continue intègre également le CI/CD, le principe agile, les tests logiciels et le partage des connaissances au sein de l'entreprise.",
     "projectsList": "Découvrez quelques-uns de mes projets!"
   },
   "about": {
@@ -76,12 +76,12 @@
       "dates": "Septembre 2011 – Septembre 2014",
       "coursework": "<span class='font-bold'>Cours pertinents : </span> Qualité, Management Intégré et Développement Durable, Outils de management QSE pour les ingénieurs des filières alimentaires, Economie d'entreprise"
     },
-    "skills": "<span class='font-bold'>Compétences techniques :</span> HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, C#, ASP.NET, Java, Spring Boot, Android, SQL (SQL Server, MySQL , PostgreSQL), tests (Jest / Nightwatch / JUnit), API Rest, WebSocket, Git, Figma, Notion.",
+    "skills": "<span class='font-bold'>Technologies connues :</span> HTML/CSS, JavaScript, TypeScript, Vue.js, Angular, C#, ASP.NET, Java, Spring Boot, Android, SQL (SQL Server, MySQL , PostgreSQL), tests (Jest / Nightwatch / JUnit / JMeter), API Rest, WebSocket, Git, Figma, Notion.",
     "title4": "Contactez-moi via LinkedIn"
   },
   "project": {
     "title": "Liste des projets",
-    "subtitle1": "Projets entreprises",
+    "subtitle1": "Projets professionnels",
     "subtitle2": "Projets personnels",
     "planningWeb1": "Construire",
     "planningWeb2": "une application de planification",
@@ -110,17 +110,17 @@
     "subtitle1Text": "Comment aider les équipes qualité dans leurs tâches quotidiennes tout en préparant les audits en cours d'année ?",
     "subtitle3": "✔️ Solutions",
     "subtitle3Monitoring": "<span class='font-semibold'>Suivi :</span> créer un tableau de bord pour l'équipe QA, informer immédiatement les responsables en cas de problème de qualité, créer différentes pages pour gérer les fournisseurs, la fraude alimentaire, les formations, etc.",
-    "subtitle3PowerBI": "Logiciel synchronisé avec PowerBI :",
-    "subtitle3Automate": "<span class='font-semibold'>Automatiser :</span> automatiser en utilisant des logiciels internes, des applications externes (Teams, Outlook, etc.) et l'API des fournisseurs.",
+    "subtitle3PowerBI": "Logiciel synchronisé avec PowerBI pour obtenir rapidement les rapports trimestriels :",
+    "subtitle3Automate": "<span class='font-semibold'>Automatisation :</span> automatiser en utilisant des logiciels internes, des applications externes (Teams, Outlook, etc.) et l'API des fournisseurs.",
     "supplierEmail": "Envoyer automatiquement des e-mails aux fournisseurs",
     "supplierFile": "Enregistrer les fichiers des fournisseurs dans leurs dossiers",
     "notification": "Notifier l'équipe d'assurance qualité pour qu'elle examine les nouveaux documents",
-    "subtitle3Decision": "<span class='font-semibold'>Amélioration continue :</span> rapports, visualisation de données, analyse de données, tri de données"
+    "subtitle3Decision": "<span class='font-semibold'>Amélioration continue :</span> alerte lorsque les non-conformités ne sont pas closes, ou lorsqu'il y a une récurrence avec une non-conformité, suivi des réclamations et des problèmes rencontrés sur le terrain"
   },
   "planning-web": {
     "title": "Projet Entreprise - Application de Planification  (Java / Vue.js)",
-    "issueText": "L'entreprise a décidé d'arrêter d'utiliser un tableau et de créer une application Web pour son outil de gestion de planification. Cette amélioration a été motivée par le fait que le tableau n'était pas facile pour l'entreprise à suivre les modifications et qu'elle ne pouvait pas l'améliorer avec de nouveaux besoins.",
-    "solutionText": "L'entreprise souhaitait créer une application web pour disposer d'un outil plus facile à utiliser, plus lisible et synchronisable lorsque plusieurs utilisateurs l'utilisaient. Les spécifications données étaient : utiliser un code couleur pour voir en un coup d'œil dans quelle ville se dérouleraient les formations, avoir un planning pour chaque catégorie de salariés, pouvoir visualiser le planning sur toute l'année, mettre en place des filtres par utilisateur et par formation.",
+    "issueText": "L'entreprise utilisait un fichier CSV comme outil de gestion de planification. Cependant, il n'était pas facile de suivre les modifications et l'entreprise ne pouvait pas améliorer le fichier pour répondre à ses nouveaux besoins (connexion à un webservice existant, application en temps réel, envoie du calendrier aux formateurs en format .ics, etc.).",
+    "solutionText": "Création d'une application web pour disposer d'un outil plus facile à utiliser, plus lisible et synchronisable lorsque plusieurs utilisateurs l'utilisaient. Les spécifications données étaient par exemple : utiliser un code couleur pour voir rapidement dans quelle ville se dérouleraient les formations, avoir un planning pour chaque catégorie de salariés, pouvoir visualiser le planning sur toute l'année, mettre en place des filtres par utilisateur et par formation.",
     "subtitle1": "Analyse",
     "subtitle1Text1": "Connaître les exigences du client",
     "subtitle1Text2": "Rédiger le dossier des spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",
@@ -151,7 +151,7 @@
   "planning-android": {
     "title": "Projet Entreprise - Application de planification Android (Java)",
     "issueText": "Les employés non administratifs n'avaient pas facilement accès à leur planning pour savoir quand ils devaient enseigner.",
-    "solutionText": "Création d'une application mobile pour connaître la liste des formations du salarié connecté durant l'année, voir le détail de ses formations et possibilité de synchroniser une formation avec son agenda.",
+    "solutionText": "Création d'une application mobile pour connaître la liste des formations du salarié connecté, voir le détail de ses formations et possibilité de synchroniser une formation avec son agenda.",
     "subtitle1": "Analyse",
     "subtitle1Text1": "Connaître les exigences du client",
     "subtitle1Text2": "Rédiger le dossier de spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",
