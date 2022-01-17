@@ -2,13 +2,55 @@
   <div class="md:pt-16 px-6 md:px-0 pb-20">
     <div class="grid grid-cols-6 md:grid-cols-12 grid-rows-auto gap-4">
       <div
-        class="text-gray-500 dark:text-teal-200 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
+        class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
         {{ $t("planning-android.title") }}
       </div>
 
+      <!-- Start Introduction -->
+      <div
+        class="text-teal-700 dark:text-teal-400 font-semibold text-left md:col-start-3 col-span-6 md:col-span-5"
+      >
+        {{ $t("quality.subtitle1") }}
+      </div>
+
+      <div
+        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-5"
+      >
+        {{ $t("planning-android.issueText") }}
+      </div>
+
+      <div
+        class="text-teal-700 dark:text-teal-400 font-semibold text-left md:mt-16 md:col-start-3 col-span-6 md:col-span-5"
+      >
+        {{ $t("quality.subtitle3") }}
+      </div>
+
+      <div
+        class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-5"
+      >
+        {{ $t("planning-android.solutionText") }}
+      </div>
+
+      <div
+        class="md:col-start-8 col-span-6 md:col-span-3 md:row-start-2 md:row-span-5 flex justify-center"
+      >
+        <img
+          src="@/assets/planning-android.gif"
+          alt="Gif Planning Android Application project"
+          class="object-scale-down max-h-96"
+        />
+      </div>
+      <!-- End Introduction -->
+
+      <div
+        class="my-10 md:col-start-3 col-span-6 md:col-span-8 grid justify-items-center"
+      >
+        <img class="w-28" :src="darkLightDots" alt="dots image" />
+      </div>
+
       <!-- Start Analysis -->
-      <div class="mt-10 md:col-start-3 col-span-6 md:col-span-8 flex">
+      <div class="md:col-start-3 col-span-6 md:col-span-8 flex">
         <div
           class="h-10 w-10 rounded-full bg-teal-700 mr-5 flex items-center justify-center"
         >
@@ -61,25 +103,25 @@
       </div>
 
       <div
-        class="text-gray-800 dark:text-teal-50 text-left md:col-start-7 col-span-6 md:col-span-4"
+        class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
-        <ul
-          class="list-disc list-inside text-justify"
-          v-for="d in design"
-          :key="d"
-        >
-          <li class="mb-3">{{ d }}</li>
-        </ul>
-      </div>
+        <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
+          <ul
+            class="list-disc list-inside text-justify"
+            v-for="d in design"
+            :key="d"
+          >
+            <li class="mb-3">{{ d }}</li>
+          </ul>
+        </div>
 
-      <div
-        class="md:col-start-3 col-span-6 md:col-span-4 md:mr-7 flex justify-center md:row-start-5"
-      >
-        <img
-          src="@/assets/notion-planning.png"
-          alt="Use case image for Planning Web Application project"
-          class="object-cover max-h-60"
-        />
+        <div class="md:mr-7 flex justify-center">
+          <img
+            src="@/assets/notion-planning.png"
+            alt="Use case image for Planning Web Application project"
+            class="object-cover max-h-60"
+          />
+        </div>
       </div>
       <!-- End design -->
 
