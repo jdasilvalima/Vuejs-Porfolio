@@ -116,6 +116,7 @@ export default {
         this.lightMode();
       }
       this.$emit("darkLightChild");
+      this.visibleMobileNav = false;
     },
     lightMode() {
       document.documentElement.classList.remove("dark");

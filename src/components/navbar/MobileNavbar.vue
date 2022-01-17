@@ -18,6 +18,7 @@
         v-for="navbar in navbars"
         :key="navbar.names"
         class="text-white font-medium text-xl mb-5"
+        @click="closeMobileNav(false)"
       >
         <router-link :to="navbar.router">{{ navbar.names }}</router-link>
       </div>
