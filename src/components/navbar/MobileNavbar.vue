@@ -70,12 +70,14 @@ export default {
       ? (this.darkLightIcon = require(`@/assets/moon-mobile.svg`))
       : (this.darkLightIcon = require(`@/assets/sun-mobile.svg`));
   },
+  unmounted() {
+    document.getElementsByTagName("body")[0].style.overflowY = "scroll";
+  },
   methods: {
     mobileSetLocale(locale) {
       this.$emit("mobileLocale", locale);
     },
     closeMobileNav(boolean) {
-      document.getElementsByTagName("body")[0].style.overflowY = "scroll";
       this.$emit("mobileNav", boolean);
     },
     switchDarkLightMode() {

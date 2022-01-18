@@ -100,7 +100,6 @@ export default {
     localStorage.getItem("theme") === "light"
       ? this.lightMode()
       : this.darkMode();
-    document.getElementsByTagName("body")[0].style.overflowY = "scroll";
   },
   methods: {
     setLocale(locale) {
