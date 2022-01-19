@@ -85,18 +85,18 @@
     "subtitle2": "Projets personnels",
     "planningWeb1": "Construire",
     "planningWeb2": "une application de planification",
-    "planningWeb3": "(Java / Vue.js) pour un centre de formation afin d'aider à la fois les équipes commerciales et les équipes RH à suivre les plannings des formateurs et la liste des formations disponibles à la vente ;",
+    "planningWeb3": "(Java / Vue.js) pour un centre de formation afin d'aider à la fois les équipes commerciales et les équipes RH à suivre les plannings des formateurs et la liste des formations disponibles à la vente",
     "planningAndroid1": "Développer une",
     "planningAndroid2": "application Android",
-    "planningAndroid3": "(Java) de l'application deplanification pour les utilisateurs non-admin ;",
-    "calendar": "Créer une application de calendrier pour l'équipe RH (C# / Vue.js) ;",
-    "comparator": "Développer un programme de web scraping avec Selenium pour analyser le marché concurrentiel (Java / Angular);",
+    "planningAndroid3": "(Java) de l'application de planification pour les utilisateurs non-admin",
+    "calendar": "Créer une application de calendrier pour l'équipe RH (C# / Vue.js)",
+    "comparator": "Développer un programme de web scraping avec Selenium pour analyser le marché concurrentiel (Java / Angular)",
     "quality1": "Créer un ",
     "quality2": "système informatisé de gestion de la qualité",
-    "quality3": "pour des entreprises agroalimentaire ;",
+    "quality3": "pour des entreprises agroalimentaire",
     "portfolio1": "Coder",
     "portfolio2": "un portfolio",
-    "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité pour développer des logiciels."
+    "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité pour développer des logiciels"
   },
   "portfolio": {
     "title": "Projet personnel - Portfolio",
@@ -120,7 +120,7 @@
   "planning-web": {
     "title": "Projet Entreprise - Application de Planification  (Java / Vue.js)",
     "issueText": "L'entreprise utilisait un fichier CSV comme outil de gestion de planification. Cependant, il n'était pas facile de suivre les modifications et l'entreprise ne pouvait pas améliorer le fichier pour répondre à ses nouveaux besoins (connexion à un webservice existant, application en temps réel, envoie du calendrier aux formateurs en format .ics, etc.).",
-    "solutionText": "Création d'une application web pour disposer d'un outil plus facile à utiliser, plus lisible et synchronisable lorsque plusieurs utilisateurs l'utilisaient. Les spécifications données étaient par exemple : utiliser un code couleur pour voir rapidement dans quelle ville se dérouleraient les formations, avoir un planning pour chaque catégorie de salariés, pouvoir visualiser le planning sur toute l'année, mettre en place des filtres par utilisateur et par formation.",
+    "solutionText": "Création d'une application web facile à utiliser, plus lisible et synchronisable lorsque plusieurs utilisateurs l'utilisent.",
     "subtitle1": "Analyse",
     "subtitle1Text1": "Connaître les exigences du client",
     "subtitle1Text2": "Rédiger le dossier des spécifications fonctionnelles et techniques (ex : Vue Cas d'utilisation, Vue Logique (fonctionnelle), Vue Réalisation, Vue Déploiement, ...)",

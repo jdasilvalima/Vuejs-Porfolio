@@ -151,7 +151,7 @@
             <span class="font-semibold">Back-End :</span> Frameworks Spring
           </li>
           <li class="mb-3">
-            <span class="font-semibold">SGBD :</span> MariaDB
+            <span class="font-semibold">DBMS :</span> MariaDB
           </li>
           <li>
             <span class="font-semibold">Code versioning :</span> Git & GitLab
