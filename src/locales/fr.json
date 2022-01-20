@@ -107,15 +107,15 @@
   "quality": {
     "title": "Projet personnel - Conception du système de management de la qualité",
     "subtitle1": "❔ Le Problème",
-    "subtitle1Text": "Comment aider les équipes qualité dans leurs tâches quotidiennes tout en préparant les audits en cours d'année ?",
+    "subtitle1Text": "La qualité doit travailler avec plusieurs départements afin de répondre aux exigences des clients et du gouvernement. Au fil des ans, les exigences ont augmenté, tout comme la charge de travail de l'équipe qualité. Comment aider les équipes à garantir des produits et des processus de haute qualité, sûrs et conformes à la loi dans un environnement exigeant ?",
     "subtitle3": "✔️ Solutions",
-    "subtitle3Monitoring": "<span class='font-semibold'>Suivi :</span> créer un tableau de bord pour l'équipe QA, informer immédiatement les responsables en cas de problème de qualité, créer différentes pages pour gérer les fournisseurs, la fraude alimentaire, les formations, etc.",
+    "subtitle3Monitoring": "<span class='font-semibold'>Suivi :</span> Création d'un tableau de bord QA avec des indicateurs clés à suivre sur les tâches de l'équipe, les objectifs de l'entreprise et la préparation des audits. La visualisation des données est adaptée pour chaque indicateur afin de notifier les problèmes en un coup d'œil.",
     "subtitle3PowerBI": "Logiciel synchronisé avec PowerBI pour obtenir rapidement les rapports trimestriels :",
-    "subtitle3Automate": "<span class='font-semibold'>Automatisation :</span> automatiser en utilisant des logiciels internes, des applications externes (Teams, Outlook, etc.) et l'API des fournisseurs.",
+    "subtitle3Automate": "<span class='font-semibold'>Automatisation :</span> Création de workflows à partir des données des bases de données de l'entreprise, des applications externes (Teams, Outlook, etc) et des API des fournisseurs. Par exemple, il est possible d'automatiser l'envoi et la réception des résultats de laboratoire, ainsi que la communication avec les fournisseurs.",
     "supplierEmail": "Envoyer automatiquement des e-mails aux fournisseurs",
     "supplierFile": "Enregistrer les fichiers des fournisseurs dans leurs dossiers",
     "notification": "Notifier l'équipe d'assurance qualité pour qu'elle examine les nouveaux documents",
-    "subtitle3Decision": "<span class='font-semibold'>Amélioration continue :</span> alerte lorsque les non-conformités ne sont pas closes, ou lorsqu'il y a une récurrence avec une non-conformité, suivi des réclamations et des problèmes rencontrés sur le terrain"
+    "subtitle3Decision": "<span class='font-semibold'>Amélioration continue :</span> Alerter les parties prenantes et aider au suivi lorsque les non-conformités ne sont pas fermées, ou lorsqu'il y a une récurrence avec une non-conformité, en utilisant une méthodologie d'amélioration continue."
   },
   "planning-web": {
     "title": "Projet Entreprise - Application de Planification  (Java / Vue.js)",

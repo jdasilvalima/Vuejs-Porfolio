@@ -314,7 +314,7 @@
       </div>
 
       <!-- Start feedback -->
-      <div class="col-span-6 md:col-span-7 md:col-start-4">
+      <div class="col-span-6 md:col-span-8 md:col-start-3">
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left mb-5"
         >

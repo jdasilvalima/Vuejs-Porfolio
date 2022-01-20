@@ -107,15 +107,15 @@
   "quality": {
     "title": "Personal Project - Quality management system design",
     "subtitle1": "❔ The Issue",
-    "subtitle1Text": "How to help quality teams with their daily tasks while preparing for audits during the year ?",
+    "subtitle1Text": "Quality has to work with various departments in order to meet customers and government requirements. Through the years, requirements increased and so did quality team workload. How to help teams ensure high-quality, safe and legally compliant products and processes in a demanding environment?",
     "subtitle3": "✔️ Solution",
-    "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> create a dashboard for QA team, notify managers immediately when there is a quality issue, create different pages to manage suppliers, food fraud, trainings, etc.",
+    "subtitle3Monitoring": "<span class='font-semibold'>Monitoring :</span> Creation of a QA dashboard with key indicators to follow on team tasks, company's goals and audits preparation. Data visualization is adapted for each indicator to notify issues at a glance.",
     "subtitle3PowerBI": "Software synchronized with PowerBI to quickly obtain quarterly reviews :",
-    "subtitle3Automate": "<span class='font-semibold'>Automate :</span> automate with workflows using internal software, external applications (Teams, Outlook, etc) and suppliers' API",
+    "subtitle3Automate": "<span class='font-semibold'>Automate :</span> Creation of workflows using data from company databases, external applications (Teams, Outlook, etc) and suppliers' API. For instance, it is possible to automate the sending and receiving of laboratory results, as well as communication with suppliers.",
     "supplierEmail": "Send automatically emails to suppliers",
     "supplierFile": "Save files from suppliers in their folders",
     "notification": "Notify QA team to review new documents",
-    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> alert stakeholders when non-conformities are not closed, or when there is a recurrence with a non-conformity, watch customer complaints or issues on the floor"
+    "subtitle3Decision": "<span class='font-semibold'>Continuous improvement :</span> Alert stakeholders and help to follow up when non-conformities are not closed, or when there is a recurrence with a non-conformity, using continuous improvement methodology."
   },
   "planning-web": {
     "title": "Company Project - Planning Application (Java / Vue.js)",
