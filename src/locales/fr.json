@@ -44,7 +44,7 @@
       "location": "Alexandria - Virginia (U.S)",
       "tasks1": "Certifications BRC niveau AA, Biologique, ABF, Halal et Sans Gluten, inspections FDA/USDA et audits clients pour l'usine d'Alexandrie (Virginie). Déplacement également dans différentes usines (États-Unis et Thaïlande) pour apporter une assistance technique afin de les aider à préparer leurs audits", 
       "tasks2": "Management d'une équipe qualité de 13 personnes (2 managers, 3 superviseurs et 8 techniciens)",
-      "tasks3": "Travailler avec le département R&D pour développer les nouveauxproduits (du choix des fournisseurs jusqu’à la validation du produit fini).",
+      "tasks3": "Travailler avec le département R&D pour développer les nouveaux produits (du choix des fournisseurs jusqu’à la validation du produit fini).",
       "tasks4": "Rendre compte de la performance du système qualité à la haute direction lors des revues trimestrielles"
     },
     "florette": {
@@ -93,7 +93,7 @@
     "comparator": "Développer un programme de web scraping avec Selenium pour analyser le marché concurrentiel (Java / Angular)",
     "quality1": "Créer un ",
     "quality2": "système informatisé de gestion de la qualité",
-    "quality3": "pour des entreprises agroalimentaire",
+    "quality3": "pour des entreprises agroalimentaires",
     "portfolio1": "Coder",
     "portfolio2": "un portfolio",
     "portfolio3": "(Vue.js) pour expliquer comment j'utilise mes connaissances en gestion de projet et de la qualité pour développer des logiciels"
@@ -105,7 +105,7 @@
     "subtitle3": "Vous trouverez le code sur Github"
   },
   "quality": {
-    "title": "Projet personnel - Conception du système de management de la qualité",
+    "title": "Projet personnel - Conception d'un système de management de la qualité",
     "subtitle1": "❔ Le Problème",
     "subtitle1Text": "La qualité doit travailler avec plusieurs départements afin de répondre aux exigences des clients et du gouvernement. Au fil des ans, les exigences ont augmenté, tout comme la charge de travail de l'équipe qualité. Comment aider les équipes à garantir des produits et des processus de haute qualité, sûrs et conformes à la loi dans un environnement exigeant ?",
     "subtitle3": "✔️ Solutions",
@@ -140,7 +140,7 @@
     "subtitle4Text6": "<span class='font-semibold'>Tests utilisateur :</span>  Questionnaires pour les administrateurs et les non-administrateurs",
     "subtitle5": "Mise en œuvre",
     "subtitle5Text1": "CI/CD avec GitLab",
-    "subtitle5Text2": "Déployé en production avec Harbore & Rundeck",
+    "subtitle5Text2": "Déployer en production avec Harbore & Rundeck",
     "positive": "😀 Ce que j'ai aimé avec ce projet",
     "positivetext1": "Création de l'application web à partir de zéro",
     "positivetext2": "Apprendre de nouvelles technologies et outils (WebSocket, Vuex store, Vue i18n, etc.)",
