@@ -57,7 +57,7 @@
             {{ $t("project.quality1") }}
             <router-link
               class="text-teal-400 hover:underline"
-              :to="{ name: 'QualityProject' }"
+              :to="{ name: 'PowerBi' }"
               >{{ $t("project.quality2") }}</router-link
             >
             {{ $t("project.quality3") }}
