@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Personal Project - Quality dashboard (PowerBI)
+        Personal Project - Quality dashboard for food companies (Power BI)
       </div>
 
       <!-- Start Introduction -->
@@ -17,7 +17,10 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-8"
       >
-        Issue...
+        Quality has to work with various departments in order to meet customers
+        and government requirements. Through the years, requirements increased
+        and so did quality team workload. How to help teams ensure quality in a
+        demanding environment?
       </div>
 
       <div
@@ -29,12 +32,16 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-8"
       >
-        Solution...
+        Creation of a QA dashboard with key indicators to follow company's goals
+        and quality management. It helps teams to keep track of their objectives
+        and know what to improve if needed.
       </div>
 
-      <div class="mt-5 md:col-start-3 col-span-6 md:col-span-8 flex justify-center">
+      <div
+        class="mt-5 md:col-start-3 col-span-6 md:col-span-8 flex justify-center"
+      >
         <img
-          src="@/assets/planning-web.gif"
+          src="@/assets/power-bi.gif"
           alt="Gif Planning Android Application project"
           class="object-scale-down max-h-80"
         />
@@ -66,18 +73,17 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
-        <ul
-          class="list-disc list-inside text-justify"
-          v-for="a in analysis"
-          :key="a"
-        >
-          <li class="mb-3">{{ a }}</li>
-        </ul>
+        Extract data from different data sources with Power Query. Profile,
+        clean, and load data into Power BI in preparation for modeling data.
+        <br />
+        Extraction des données provenant de différentes sources avec Power
+        Query. Profiler, nettoyer et charger les données dans Power BI pour
+        pouvoir les modéliser.
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/use-case-planning-web.png"
+          src="@/assets/power-query.png"
           alt="Use case image for Planning Web Application project"
           class="object-scale-down max-h-52"
         />
@@ -104,18 +110,17 @@
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
-          <ul
-            class="list-disc list-inside text-justify"
-            v-for="d in design"
-            :key="d"
-          >
-            <li class="mb-3">{{ d }}</li>
-          </ul>
+          Organization of data coming in from more than one transactional
+          system. Creating a schema to simplify the data model.
+          <br />
+          Organisation des données provenant de plusieurs systèmes
+          transactionnels. Création d'un schéma pour simplifier le modèle de
+          données.
         </div>
 
         <div class="md:mr-7 flex justify-center">
           <img
-            src="@/assets/notion-planning.png"
+            src="@/assets/relations-power-bi.png"
             alt="Use case image for Planning Web Application project"
             class="object-cover max-h-60"
           />
@@ -142,26 +147,17 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:mr-7 md:col-start-3 col-span-6 md:col-span-4"
       >
-        <ul class="list-disc list-inside">
-          <li class="mb-3">
-            <span class="font-semibold">Front-End :</span> Vue.js, Vuetify,
-            Vuex, Vue router, Vue i18n
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">Back-End :</span> Frameworks Spring
-          </li>
-          <li class="mb-3">
-            <span class="font-semibold">DBMS :</span> MariaDB
-          </li>
-          <li>
-            <span class="font-semibold">Code versioning :</span> Git & GitLab
-          </li>
-        </ul>
+        Use visuals to solve a specific problem. Create dashboards helping QA
+        managers to analyze data.
+        <br />
+        Utilisez des visuels pour résoudre un problème spécifique. Créez des
+        tableaux de bord aidant les responsables de l'assurance qualité à
+        analyser les données.
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/layers-planning-web.png"
+          src="@/assets/screens-power-bi.png"
           alt="Organization layers planning web appliation"
           class="object-scale-down max-h-60"
         />
@@ -188,14 +184,16 @@
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
-          <ul class="list-disc list-inside">
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text1')"></li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text2')"></li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text3')"></li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text4')"></li>
-            <li class="mb-3" v-html="$t('planning-web.subtitle4Text5')"></li>
-            <li v-html="$t('planning-web.subtitle4Text6')"></li>
-          </ul>
+          Examine data and Power BI reports in order to extract value with
+          deeper analysis. Sort data and present the report in a cohesive
+          manner. Apply and perform advanced analytics on the report for deeper
+          and more meaningful data insights.
+          <br />
+          Examinez les données et les rapports Power BI afin d'extraire de la
+          valeur grâce à une analyse plus approfondie. Triez les données et
+          présentez le rapport de manière cohérente. Appliquez et effectuez des
+          analyses avancées sur le rapport pour obtenir des informations plus
+          approfondies et plus significatives sur les données.
         </div>
 
         <!-- Start icon testing -->
@@ -289,12 +287,16 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
-        <ul class="list-disc list-inside">
-          <li class="mb-3">{{ $t("planning-web.subtitle5Text1") }}</li>
-          <li class="mb-3">
-            {{ $t("planning-web.subtitle5Text2") }}
-          </li>
-        </ul>
+        Create a workspace in the Power BI service. Deploy Power BI artifacts
+        and share them to users. Configure automatic refresh for the QA Power BI
+        datasets. Users are restricted to see only the data that applies to
+        them.
+        <br />
+        Créez un espace de travail dans le service Power BI. Déployez des
+        artefacts Power BI et partagez-les avec les utilisateurs. Configurez
+        l'actualisation automatique pour les jeux de données QA Power BI. Les
+        utilisateurs sont limités à voir uniquement les données qui s'appliquent
+        à eux.
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
@@ -361,11 +363,10 @@ export default {
         this.$t("planning-web.subtitle2Text4"),
       ],
       positive: [
-        this.$t("planning-web.positivetext1"),
-        this.$t("planning-web.positivetext2"),
-        this.$t("planning-web.positivetext3"),
+        "Learned to use Power BI",
+        "Practiced data visualization",
+        "Identified KPI indicators",
       ],
-      improvement: [this.$t("planning-web.improvementText1")],
     };
   },
   watch: {
