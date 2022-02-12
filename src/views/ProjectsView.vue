@@ -26,6 +26,7 @@
     <PowerBi
       v-if="$route.path == '/projects/power-bi'"
       :updateModeChild="updateMode"
+      :key="$i18n.locale"
     />
   </div>
 </template>

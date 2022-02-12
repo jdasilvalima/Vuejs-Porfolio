@@ -4,7 +4,7 @@
       <div
         class="text-gray-500 dark:text-teal-50 text-lg font-semibold text-left mb-5 md:col-start-3 col-span-6 md:col-span-8"
       >
-        Personal Project - Quality dashboard for food companies (Power BI)
+        {{ $t("powerbi-quality.title") }}
       </div>
 
       <!-- Start Introduction -->
@@ -17,10 +17,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-8"
       >
-        Quality has to work with various departments in order to meet customers
-        and government requirements. Through the years, requirements increased
-        and so did quality team workload. How to help teams ensure quality in a
-        demanding environment?
+        {{ $t("powerbi-quality.issueText") }}
       </div>
 
       <div
@@ -32,9 +29,7 @@
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:col-start-3 col-span-6 md:col-span-8"
       >
-        Creation of a QA dashboard with key indicators to follow company's goals
-        and quality management. It helps teams to keep track of their objectives
-        and know what to improve if needed.
+        {{ $t("powerbi-quality.solutionText") }}
       </div>
 
       <div
@@ -66,19 +61,14 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Prepare
+          {{ $t("powerbi-quality.prepare") }}
         </div>
       </div>
 
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
-        Extract data from different data sources with Power Query. Profile,
-        clean, and load data into Power BI in preparation for modeling data.
-        <br />
-        Extraction des données provenant de différentes sources avec Power
-        Query. Profiler, nettoyer et charger les données dans Power BI pour
-        pouvoir les modéliser.
+        {{ $t("powerbi-quality.prepareText") }}
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
@@ -102,7 +92,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Model
+          {{ $t("powerbi-quality.model") }}
         </div>
       </div>
 
@@ -110,12 +100,7 @@
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
-          Organization of data coming in from more than one transactional
-          system. Creating a schema to simplify the data model.
-          <br />
-          Organisation des données provenant de plusieurs systèmes
-          transactionnels. Création d'un schéma pour simplifier le modèle de
-          données.
+          {{ $t("powerbi-quality.modelText") }}
         </div>
 
         <div class="md:mr-7 flex justify-center">
@@ -140,19 +125,14 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Visualize
+          {{ $t("powerbi-quality.visualize") }}
         </div>
       </div>
 
       <div
         class="text-gray-800 dark:text-teal-50 text-justify md:mr-7 md:col-start-3 col-span-6 md:col-span-4"
       >
-        Use visuals to solve a specific problem. Create dashboards helping QA
-        managers to analyze data.
-        <br />
-        Utilisez des visuels pour résoudre un problème spécifique. Créez des
-        tableaux de bord aidant les responsables de l'assurance qualité à
-        analyser les données.
+        {{ $t("powerbi-quality.visualizeText") }}
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
@@ -176,7 +156,7 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-8 col-span-5 md:col-span-7 flex items-center"
         >
-          Analyze
+          {{ $t("powerbi-quality.analyze") }}
         </div>
       </div>
 
@@ -184,87 +164,16 @@
         class="md:col-start-3 col-span-6 md:col-span-8 grid md:grid-cols-2 md:grid-row-1"
       >
         <div class="text-gray-800 dark:text-teal-50 text-left md:order-last">
-          Examine data and Power BI reports in order to extract value with
-          deeper analysis. Sort data and present the report in a cohesive
-          manner. Apply and perform advanced analytics on the report for deeper
-          and more meaningful data insights.
-          <br />
-          Examinez les données et les rapports Power BI afin d'extraire de la
-          valeur grâce à une analyse plus approfondie. Triez les données et
-          présentez le rapport de manière cohérente. Appliquez et effectuez des
-          analyses avancées sur le rapport pour obtenir des informations plus
-          approfondies et plus significatives sur les données.
+          {{ $t("powerbi-quality.analyzeText") }}
         </div>
 
-        <!-- Start icon testing -->
-        <div>
-          <div
-            class="md:pr-10 mt-10 md:mt-0 grid grid-cols-3 grid-rows-2 gap-2 justify-items-center items-end"
-          >
-            <div>
-              <img
-                src="@/assets/jest.png"
-                alt="Jest logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Jest</span
-              >
-            </div>
-            <div class="md:col-start-2 grid grid-rows-auto">
-              <img
-                src="@/assets/junit5.png"
-                alt="JUnit 5 logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Junit 5</span
-              >
-            </div>
-            <div class="md:col-start-3 grid grid-rows-auto">
-              <img
-                src="@/assets/nightwatch.png"
-                alt="Nightwatch logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Nightwatch</span
-              >
-            </div>
-            <div class="row-start-2">
-              <img
-                src="@/assets/jmeter.png"
-                alt="JMeter logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >JMeter</span
-              >
-            </div>
-            <div class="md:col-start-2 grid grid-rows-auto">
-              <img
-                src="@/assets/owasp.png"
-                alt="OWASP logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >OWASP ZAP</span
-              >
-            </div>
-            <div class="md:col-start-3 grid grid-rows-auto">
-              <img
-                src="@/assets/lighthouse.png"
-                alt="Lighthouse logo"
-                class="max-h-16 md:max-h-20"
-              />
-              <span class="text-gray-800 dark:text-teal-50 row-start-2 mt-3"
-                >Lighthouse</span
-              >
-            </div>
-          </div>
+        <div class="md:mr-7 flex justify-center">
+          <img
+            src="@/assets/bone-powerbi.png"
+            alt="Use case image for Planning Web Application project"
+            class="object-scale-down max-h-52"
+          />
         </div>
-
-        <!-- End icon testing -->
       </div>
       <!-- End Analyze -->
 
@@ -280,28 +189,19 @@
         <div
           class="text-teal-700 dark:text-teal-50 font-semibold text-left md:col-start-4 col-span-5 md:col-span-7 flex items-center"
         >
-          Manage
+          {{ $t("powerbi-quality.manage") }}
         </div>
       </div>
 
       <div
         class="text-gray-800 dark:text-teal-50 text-left md:col-start-3 col-span-6 md:col-span-4"
       >
-        Create a workspace in the Power BI service. Deploy Power BI artifacts
-        and share them to users. Configure automatic refresh for the QA Power BI
-        datasets. Users are restricted to see only the data that applies to
-        them.
-        <br />
-        Créez un espace de travail dans le service Power BI. Déployez des
-        artefacts Power BI et partagez-les avec les utilisateurs. Configurez
-        l'actualisation automatique pour les jeux de données QA Power BI. Les
-        utilisateurs sont limités à voir uniquement les données qui s'appliquent
-        à eux.
+        {{ $t("powerbi-quality.manageText") }}
       </div>
 
       <div class="md:col-start-7 col-span-6 md:col-span-4 flex justify-center">
         <img
-          src="@/assets/planning-web.png"
+          src="@/assets/manage.png"
           alt="Planning Web Application project screen shot"
           class="max-h-60"
         />
@@ -351,21 +251,10 @@ export default {
   data: function () {
     return {
       darkLightDots: null,
-      analysis: [
-        this.$t("planning-web.subtitle1Text1"),
-        this.$t("planning-web.subtitle1Text2"),
-        this.$t("planning-web.subtitle1Text3"),
-      ],
-      design: [
-        this.$t("planning-web.subtitle2Text1"),
-        this.$t("planning-web.subtitle2Text2"),
-        this.$t("planning-web.subtitle2Text3"),
-        this.$t("planning-web.subtitle2Text4"),
-      ],
       positive: [
-        "Learned to use Power BI",
-        "Practiced data visualization",
-        "Identified KPI indicators",
+        this.$t("powerbi-quality.positivetext1"),
+        this.$t("powerbi-quality.positivetext2"),
+        this.$t("powerbi-quality.positivetext3"),
       ],
     };
   },
