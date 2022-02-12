@@ -23,9 +23,10 @@
       :updateModeChild="updateMode"
       :key="$i18n.locale"
     />
-    <QualityProject
-      v-if="$route.path == '/projects/quality'"
+    <PowerBi
+      v-if="$route.path == '/projects/power-bi'"
       :updateModeChild="updateMode"
+      :key="$i18n.locale"
     />
   </div>
 </template>
@@ -36,7 +37,7 @@ import ProjectsList from "@/components/projects/ProjectsList.vue";
 import PortfolioProject from "@/components/projects/PortfolioProject.vue";
 import PlanningProject from "@/components/projects/PlanningProject.vue";
 import AndroidPlanningProject from "@/components/projects/AndroidPlanningProject.vue";
-import QualityProject from "@/components/projects/QualityProject.vue";
+import PowerBi from "@/components/projects/PowerBi.vue";
 
 export default {
   components: {
@@ -44,7 +45,7 @@ export default {
     ProjectsList,
     PortfolioProject,
     PlanningProject,
-    QualityProject,
+    PowerBi,
     AndroidPlanningProject,
   },
   data: function () {
